@@ -1,0 +1,130 @@
+name: SentiCraft MLOps CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+      - release/*
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  code-quality-and-test:
+    name: Code Quality & Unit Testing
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v4
+
+      - name: Install uv ( Astral Package Manager )
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: "latest"
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          uv sync --frozen
+
+      - name: Run code linter ( Ruff )
+        run: |
+          uv run ruff check src/ --exit-zero
+
+      - name: Run Unit Tests
+        run: |
+          uv run pytest src/
+
+  model-validation:
+    name: Model Integrity & Performance Verification
+    runs-on: ubuntu-latest
+    needs: code-quality-and-test
+    
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Restore dataset & registry
+        run: |
+          uv run src/data_prep.py
+          uv run src/train.py
+
+      - name: Validate model metrics thresholds
+        run: |
+          # Simule la validation des métriques par rapport aux seuils de production
+          uv run python -c "
+          import json, sys
+          with open('models/training_runs/run_latest.json') as f:
+              run = json.load(f)
+          acc_sent = run['metrics']['sentiment']['accuracy']
+          acc_cat = run['metrics']['category']['accuracy']
+          print(f'Validation - Sentiment Accuracy: {acc_sent}, Category Accuracy: {acc_cat}')
+          if acc_sent < 0.75 or acc_cat < 0.75:
+              print('ERREUR : Performance du modèle en dessous du seuil de production (0.75)')
+              sys.exit(1)
+          print('Validation réussie. Le modèle est apte pour la production !')
+          "
+
+  build-and-push:
+    name: Docker Build & Registry Push
+    runs-on: ubuntu-latest
+    needs: model-validation
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to GitHub Container Registry (GHCR)
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate image tags
+        id: meta
+        run: |
+          echo "tag=ghcr.io/${{ github.repository }}/senticraft-api:${{ github.sha }}" >> $GITHUB_OUTPUT
+          echo "latest=ghcr.io/${{ github.repository }}/senticraft-api:latest" >> $GITHUB_OUTPUT
+
+      - name: Build and Push Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./Dockerfile
+          push: true
+          tags: |
+            ${{ steps.meta.outputs.tag }}
+            ${{ steps.meta.outputs.latest }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+  deploy-staging:
+    name: Continuous Deployment to Staging
+    runs-on: ubuntu-latest
+    needs: build-and-push
+    
+    steps:
+      - name: Deploy to Kubernetes Staging Namespace (GitOps)
+        run: |
+          echo "Simule l'authentification au cluster Kubernetes de l'entreprise..."
+          echo "Mise à jour du manifest Helm/Kustomize pour pointer vers l'image : ghcr.io/${{ github.repository }}/senticraft-api:${{ github.sha }}"
+          echo "Déploiement en cours... Rollout status check..."
+          echo "Déploiement réussi sur Staging !"

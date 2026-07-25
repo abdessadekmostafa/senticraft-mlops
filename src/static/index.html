@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SentiCraft MLOps Dashboard</title>
+    <!-- Google Fonts: Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js for beautiful charts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand">
+                <i class="fa-solid fa-microchip brand-icon"></i>
+                <div class="brand-name">
+                    <h1>SentiCraft</h1>
+                    <span>MLOps Platform</span>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <button class="nav-item active" data-tab="playground-tab">
+                    <i class="fa-solid fa-terminal"></i> Model Playground
+                </button>
+                <button class="nav-item" data-tab="monitoring-tab">
+                    <i class="fa-solid fa-chart-line"></i> Real-time Monitor
+                </button>
+                <button class="nav-item" data-tab="feedback-tab">
+                    <i class="fa-solid fa-rotate"></i> Feedback Loop
+                </button>
+            </nav>
+            <div class="system-status">
+                <div class="status-indicator online"></div>
+                <div class="status-info">
+                    <span class="status-label">API Status</span>
+                    <span class="status-value" id="api-status-text">Checking...</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="top-header">
+                <div class="header-title">
+                    <h2 id="current-tab-title">Model Playground</h2>
+                    <p id="current-tab-subtitle">Test predictions, view confidence scores and submit feedback.</p>
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn-secondary" id="refresh-metrics-btn">
+                        <i class="fa-solid fa-arrows-rotate"></i> Refresh Data
+                    </button>
+                </div>
+            </header>
+
+            <!-- TABS -->
+            <div class="tab-content active" id="playground-tab">
+                <div class="grid-2col">
+                    <!-- Text Input Section -->
+                    <div class="card glass-card">
+                        <div class="card-header">
+                            <h3><i class="fa-regular fa-comment-dots"></i> Client Input</h3>
+                            <span class="badge">Model: TF-IDF + LogReg</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="instruction-text">Type or paste customer feedback (in French) to see the model classify it in real time.</p>
+                            <textarea id="review-input" placeholder="Exemple: Le produit est arrivé en avance mais la boîte était ouverte..."></textarea>
+                            <div class="suggestion-pills">
+                                <span class="pill" data-text="La livraison de ce matin s'est très bien passée, livreur super sympa !">Livraison (+)</span>
+                                <span class="pill" data-text="Le produit est tombé en panne au bout de 2 jours, qualité médiocre.">Produit (-)</span>
+                                <span class="pill" data-text="Le prix de cet abonnement est vraiment trop cher par rapport aux concurrents.">Prix (-)</span>
+                                <span class="pill" data-text="J'attends toujours une réponse du SAV par email depuis une semaine.">SAV (-)</span>
+                            </div>
+                            <button class="btn btn-primary btn-block" id="predict-btn">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i> Classify Review
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Predictions Output Section -->
+                    <div class="card glass-card result-card empty" id="result-card">
+                        <div class="empty-state">
+                            <i class="fa-solid fa-robot"></i>
+                            <h4>Ready for Classification</h4>
+                            <p>Enter text on the left and click "Classify Review" to view predictions.</p>
+                        </div>
+                        <div class="result-state hidden">
+                            <div class="card-header">
+                                <h3><i class="fa-solid fa-circle-check"></i> Prediction Output</h3>
+                                <span class="latency" id="latency-tag"><i class="fa-regular fa-clock"></i> 4.2ms</span>
+                            </div>
+                            <div class="card-body">
+                                <!-- Prediction Metrics -->
+                                <div class="output-group">
+                                    <div class="output-header">
+                                        <span>Sentiment Analysis</span>
+                                        <strong id="pred-sentiment">-</strong>
+                                    </div>
+                                    <div class="confidence-bar-container">
+                                        <div class="confidence-bar bg-sentiment" id="sentiment-conf-bar" style="width: 0%"></div>
+                                    </div>
+                                    <div class="confidence-val" id="sentiment-conf-val">0% confidence</div>
+                                </div>
+
+                                <div class="output-group">
+                                    <div class="output-header">
+                                        <span>Topic Category</span>
+                                        <strong id="pred-category">-</strong>
+                                    </div>
+                                    <div class="confidence-bar-container">
+                                        <div class="confidence-bar bg-category" id="category-conf-bar" style="width: 0%"></div>
+                                    </div>
+                                    <div class="confidence-val" id="category-conf-val">0% confidence</div>
+                                </div>
+
+                                <!-- Feedback Loop Container -->
+                                <div class="feedback-correction-panel">
+                                    <h4>Is this prediction correct ?</h4>
+                                    <p>If not, correct it to train the model's next iteration.</p>
+                                    <div class="feedback-forms">
+                                        <div class="form-row">
+                                            <label>Correct Sentiment:</label>
+                                            <select id="correct-sentiment">
+                                                <option value="Positif">Positif</option>
+                                                <option value="Neutre">Neutre</option>
+                                                <option value="Négatif">Négatif</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-row">
+                                            <label>Correct Category:</label>
+                                            <select id="correct-category">
+                                                <option value="Produit">Produit</option>
+                                                <option value="Livraison">Livraison</option>
+                                                <option value="Service Client">Service Client</option>
+                                                <option value="Prix">Prix</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-accent btn-block" id="submit-feedback-btn">
+                                        <i class="fa-solid fa-paper-plane"></i> Submit Correction
+                                    </button>
+                                    <p class="success-message hidden" id="feedback-success-msg"><i class="fa-solid fa-circle-check"></i> Feedback saved successfully !</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MONITORING TAB -->
+            <div class="tab-content" id="monitoring-tab">
+                <!-- Status Cards -->
+                <div class="grid-4col">
+                    <div class="card kpi-card">
+                        <div class="kpi-icon blue"><i class="fa-solid fa-globe"></i></div>
+                        <div class="kpi-info">
+                            <span class="kpi-title">Total Requests</span>
+                            <h3 id="kpi-requests">0</h3>
+                        </div>
+                    </div>
+                    <div class="card kpi-card">
+                        <div class="kpi-icon green"><i class="fa-regular fa-clock"></i></div>
+                        <div class="kpi-info">
+                            <span class="kpi-title">Avg Latency</span>
+                            <h3 id="kpi-latency">0.0 ms</h3>
+                        </div>
+                    </div>
+                    <div class="card kpi-card">
+                        <div class="kpi-icon purple"><i class="fa-solid fa-server"></i></div>
+                        <div class="kpi-info">
+                            <span class="kpi-title">Uptime</span>
+                            <h3 id="kpi-uptime">0s</h3>
+                        </div>
+                    </div>
+                    <div class="card kpi-card">
+                        <div class="kpi-icon red"><i class="fa-solid fa-bug"></i></div>
+                        <div class="kpi-info">
+                            <span class="kpi-title">Failed Requests</span>
+                            <h3 id="kpi-errors">0</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drift Alert Banner -->
+                <div class="card alert-card hidden" id="drift-alert-banner">
+                    <div class="alert-icon"><i class="fa-solid fa-circle-exclamation"></i></div>
+                    <div class="alert-content">
+                        <h4>Data Drift Warning Detected</h4>
+                        <p>The distribution of negative reviews has changed significantly from the baseline training distribution. Model retrain is recommended.</p>
+                    </div>
+                    <div class="alert-score">
+                        <span>Drift Score</span>
+                        <h4 id="drift-score-value">0.000</h4>
+                    </div>
+                </div>
+
+                <!-- Charts Section -->
+                <div class="grid-2col charts-row">
+                    <div class="card glass-card">
+                        <div class="card-header">
+                            <h3><i class="fa-solid fa-chart-pie"></i> Sentiment Distribution</h3>
+                        </div>
+                        <div class="card-body chart-wrapper">
+                            <canvas id="sentiment-chart"></canvas>
+                        </div>
+                    </div>
+                    <div class="card glass-card">
+                        <div class="card-header">
+                            <h3><i class="fa-solid fa-chart-column"></i> Category Distribution</h3>
+                        </div>
+                        <div class="card-body chart-wrapper">
+                            <canvas id="category-chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FEEDBACK TAB -->
+            <div class="tab-content" id="feedback-tab">
+                <div class="card glass-card">
+                    <div class="card-header">
+                        <h3><i class="fa-solid fa-list-check"></i> Human-in-the-Loop Corrections log</h3>
+                        <span class="badge" id="kpi-feedbacks-count">0 feedbacks</span>
+                    </div>
+                    <div class="card-body">
+                        <p class="instruction-text">This list shows user submissions where predictions were corrected. These records are written to `data/feedback_store.csv` to serve as a high-quality dataset for model fine-tuning.</p>
+                        <div class="table-container">
+                            <table class="feedback-table">
+                                <thead>
+                                    <tr>
+                                        <th>Timestamp</th>
+                                        <th>Text</th>
+                                        <th>Prediction (Sent / Cat)</th>
+                                        <th>Correction (Sent / Cat)</th>
+                                        <th>Type</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="feedback-table-body">
+                                    <tr>
+                                        <td colspan="5" class="empty-table-cell">No feedback submitted yet.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

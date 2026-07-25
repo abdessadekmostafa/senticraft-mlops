@@ -1,0 +1,27 @@
+{
+    "timestamp": "2026-07-24T15:31:37.711615",
+    "dataset_info": {
+        "path": "C:\\Users\\ASUS\\.gemini\\antigravity\\scratch\\senticraft-mlops\\data\\raw_reviews.csv",
+        "total_records": 1000,
+        "train_records": 800,
+        "test_records": 200
+    },
+    "hyperparameters": {
+        "tfidf_max_features": 2500,
+        "tfidf_ngram_range": [
+            1,
+            2
+        ],
+        "logistic_regression_C": 1.5
+    },
+    "metrics": {
+        "sentiment": {
+            "accuracy": 1.0,
+            "f1_score_macro": 1.0
+        },
+        "category": {
+            "accuracy": 1.0,
+            "f1_score_macro": 1.0
+        }
+    }
+}

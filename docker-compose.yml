@@ -1,0 +1,21 @@
+services:
+  senti-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: senticraft-mlops-api
+    ports:
+      - "8000:8000"
+    volumes:
+      # Montage des dossiers locaux pour persister les modèles et les feedbacks
+      - ./data:/app/data
+      - ./models:/app/models
+    environment:
+      - ENV=production
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 10s
+      retries: 3
+      start_period: 5s

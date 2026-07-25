@@ -1,0 +1,15 @@
+timestamp,text,predicted_sentiment,actual_sentiment,predicted_category,actual_category,is_different
+2026-07-24T15:33:36.461529,Le prix est trop élevé.,Neutre,Négatif,Produit,Prix,True
+2026-07-24T15:39:14.752504,"SAV réactif, ils m'ont renvoyé un article neuf en 2 jours.",Positif,Neutre,Service Client,Service Client,True
+2026-07-24T15:39:27.957296,"SAV réactif, ils m'ont renvoyé un article neuf en 2 jours.",Positif,Neutre,Service Client,Service Client,True
+2026-07-24T15:43:20.566857,Le prix est trop élevé.,Neutre,Négatif,Produit,Prix,True
+2026-07-24T16:40:44.162481,"Reçu très rapidement, emballage impeccable.",Positif,Neutre,Livraison,Livraison,True
+2026-07-24T16:40:47.204391,"SAV réactif, ils m'ont renvoyé un article neuf en 2 jours.",Positif,Neutre,Service Client,Service Client,True
+2026-07-24T16:40:48.228278,"Livraison en 24h, livreur poli. Je recommande !",Positif,Neutre,Livraison,Livraison,True
+2026-07-24T16:40:53.290290,"Très bon produit, la batterie tient deux jours sans problème.",Négatif,Neutre,Produit,Produit,True
+2026-07-24T16:40:56.353172,Service client disponible et très aimable. Merci !,Positif,Neutre,Service Client,Service Client,True
+2026-07-24T16:41:02.469423,"Livraison en 24h, livreur poli. Je recommande !",Positif,Neutre,Livraison,Livraison,True
+2026-07-24T16:41:05.531250,"Reçu très rapidement, emballage impeccable.",Positif,Neutre,Livraison,Livraison,True
+2026-07-24T16:41:07.565433,"Prix dans la moyenne, livraison sans encombre.",Neutre,Positif,Prix,Prix,True
+2026-07-24T17:21:52.473103,retard de recevoir le produit,Négatif,Négatif,Produit,Livraison,True
+2026-07-24T17:27:14.599088,pas bon prix,Positif,Négatif,Prix,Prix,True

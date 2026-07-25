@@ -1,0 +1,1001 @@
+review_id,text,sentiment,category
+1,"Matériel de qualité professionnelle, très simple à utiliser.",Positif,Produit
+2,Tarif standard sans réduction particulière.,Neutre,Prix
+3,"Pour ma part, Arrivé pile à l'heure, rien à redire sur le transport.",Positif,Livraison
+4,Je suis surpris de la qualité pour un prix aussi bas.,Positif,Prix
+5,"Honnêtement, Temps de livraison moyen, emballage standard.",Neutre,Livraison
+6,"Pour ma part, Le conseiller a fait ce qu'il pouvait sans plus.",Neutre,Service Client
+7,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+8,J'attends une réponse du support par mail depuis deux semaines.,Négatif,Service Client
+9,Le SAV a traité ma demande de remboursement en quelques minutes.,Positif,Service Client
+10,Mon avis : Tarif tout à fait raisonnable et accessible.,Positif,Prix
+11,"Excellent rapport qualité prix, je rachèterai sans hésiter.",Positif,Prix
+12,"Pour ma part, Un prix très compétitif pour une telle qualité de service. Déçu.",Positif,Prix
+13,Le colis est arrivé ouvert et abîmé. Très mécontent.,Négatif,Livraison
+14,"Reçu très rapidement, emballage soigné et sécurisé. à voir dans le temps.",Positif,Livraison
+15,Prix correct pour les prestations fournies.,Neutre,Prix
+16,"Retard de livraison inadmissible, aucun suivi disponible.",Négatif,Livraison
+17,Support client réactif et très professionnel. Problème résolu !.,Positif,Service Client
+18,Ne correspond pas du tout à la photo ni à la description.,Négatif,Produit
+19,Le prix est prohibitif par rapport aux performances du produit. Je conseille.,Négatif,Prix
+20,Mon avis : Le SAV a traité ma demande de remboursement en quelques minutes.,Positif,Service Client
+21,"Bonjour, Je l'utilise tous les jours, c'est un produit génial !",Positif,Produit
+22,Colis reçu. Rien à signaler de particulier.,Neutre,Livraison
+23,"Ni cher ni bon marché, tarif normal.",Neutre,Prix
+24,SAV poli mais procédure d'échange un peu longue.,Neutre,Service Client
+25,Le prix est prohibitif par rapport aux performances du produit.,Négatif,Prix
+26,"Produit défectueux à l'arrivée, impossible de l'allumer.",Négatif,Produit
+27,"Pour ma part, Temps d'attente correct pour joindre le support.",Neutre,Service Client
+28,Service après-vente incompétent qui n'a pas compris mon problème. !,Négatif,Service Client
+29,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+30,Remplacement du produit défectueux fait sans aucun frais ni discussion.,Positif,Service Client
+31,"Pour ma part, Le colis est arrivé ouvert et abîmé. Très mécontent.",Négatif,Livraison
+32,"Bonjour, Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+33,"Plastique de mauvaise qualité, très fragile, je ne recommande pas.",Négatif,Produit
+34,"Délai d'attente interminable pour la livraison, plus d'une semaine de retard.",Négatif,Livraison
+35,"Service client au top, aimable et très efficace.",Positif,Service Client
+36,Le support a été d'une grande aide pour configurer l'appareil.,Positif,Service Client
+37,Le prix est prohibitif par rapport aux performances du produit.,Négatif,Prix
+38,"Honnêtement, Livreur désagréable qui a laissé le colis sur le trottoir.",Négatif,Livraison
+39,"Délai d'attente interminable pour la livraison, plus d'une semaine de retard.",Négatif,Livraison
+40,"Livraison catastrophique, le colis a été perdu par le transporteur.",Négatif,Livraison
+41,"Mon avis : Temps de livraison moyen, emballage standard.",Neutre,Livraison
+42,"Délai d'attente interminable pour la livraison, plus d'une semaine de retard.",Négatif,Livraison
+43,"Honnêtement, Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+44,"Mon avis : Temps de livraison moyen, emballage standard. Je conseille.",Neutre,Livraison
+45,Très bon prix avec la promotion en cours. Je conseille.,Positif,Prix
+46,"Suivi de livraison mensonger, soit-disant livré mais rien reçu.",Négatif,Livraison
+47,"Déçu par cet article, il ne fonctionne pas du tout. !",Négatif,Produit
+48,"Rapport qualité-prix très défavorable, je regrette cet achat coûteux.",Négatif,Prix
+49,On trouve exactement le même produit deux fois moins cher ailleurs.,Négatif,Prix
+50,Je suis surpris de la qualité pour un prix aussi bas. Déçu.,Positif,Prix
+51,"Conforme à la description, les finitions sont magnifiques.",Positif,Produit
+52,"Livraison correcte, dans les délais annoncés.",Neutre,Livraison
+53,"Produit moyen, fait le job mais sans plus.",Neutre,Produit
+54,"Livré le lendemain de ma commande, service impeccable.",Positif,Livraison
+55,"Aucune considération pour le client, SAV inexistant.",Négatif,Service Client
+56,Une équipe de support client très humaine et attentionnée.,Positif,Service Client
+57,"Pour ma part, Très bon prix avec la promotion en cours.",Positif,Prix
+58,"Pour ma part, Produit moyen, fait le job mais sans plus.",Neutre,Produit
+59,Le conseiller a fait ce qu'il pouvait sans plus. à voir dans le temps.,Neutre,Service Client
+60,SAV poli mais procédure d'échange un peu longue.,Neutre,Service Client
+61,"Pour ma part, Rapport qualité-prix très défavorable, je regrette cet achat coûteux.",Négatif,Prix
+62,"Livraison correcte, dans les délais annoncés..",Neutre,Livraison
+63,"Conseiller au téléphone impoli, agressif et d'aucune aide.",Négatif,Service Client
+64,"Pour ma part, Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+65,"Livraison correcte, dans les délais annoncés. !",Neutre,Livraison
+66,"Honnêtement, Temps d'attente correct pour joindre le support.",Neutre,Service Client
+67,"Conseiller au téléphone impoli, agressif et d'aucune aide. !",Négatif,Service Client
+68,"Fonctionne à merveille, le design est superbe.",Positif,Produit
+69,Le conseiller a fait ce qu'il pouvait sans plus.,Neutre,Service Client
+70,"Conforme à la description, les finitions sont magnifiques.",Positif,Produit
+71,"Pour ma part, Ne correspond pas du tout à la photo ni à la description. !",Négatif,Produit
+72,"Fonctionne à merveille, le design est superbe.",Positif,Produit
+73,SAV poli mais procédure d'échange un peu longue.,Neutre,Service Client
+74,"Conseiller au téléphone impoli, agressif et d'aucune aide.",Négatif,Service Client
+75,"Un excellent produit, robuste et conforme à mes attentes.",Positif,Produit
+76,Le prix est dans la moyenne du marché.,Neutre,Prix
+77,"Honnêtement, Livraison correcte, dans les délais annoncés.",Neutre,Livraison
+78,Le colis est arrivé avec trois jours de retard et carton écrasé..,Négatif,Livraison
+79,"Retard de livraison inadmissible, aucun suivi disponible. !",Négatif,Livraison
+80,"Le tarif a augmenté de 20% sans explication, c'est abusé.",Négatif,Prix
+81,"Bonjour, Service après-vente incompétent qui n'a pas compris mon problème.",Négatif,Service Client
+82,"Produit défectueux à l'arrivée, impossible de l'allumer.",Négatif,Produit
+83,"Livraison catastrophique, le colis a été perdu par le transporteur.",Négatif,Livraison
+84,"Bonjour, Service après-vente incompétent qui n'a pas compris mon problème..",Négatif,Service Client
+85,"Délai d'attente interminable pour la livraison, plus d'une semaine de retard.",Négatif,Livraison
+86,"Livraison catastrophique, le colis a été perdu par le transporteur.",Négatif,Livraison
+87,Tarif standard sans réduction particulière.,Neutre,Prix
+88,"Livraison ultra rapide, colis reçu en parfait état !",Positif,Livraison
+89,"Pour ma part, Plastique de mauvaise qualité, très fragile, je ne recommande pas.",Négatif,Produit
+90,Le SAV refuse de me rembourser malgré le défaut. Service lamentable..,Négatif,Service Client
+91,"Bonjour, J'attends une réponse du support par mail depuis deux semaines.",Négatif,Service Client
+92,Trop cher pour une qualité aussi basique.,Négatif,Prix
+93,"Pour ma part, Fonctionne à merveille, le design est superbe.",Positif,Produit
+94,Un prix très compétitif pour une telle qualité de service.,Positif,Prix
+95,"Livraison ultra rapide, colis reçu en parfait état !",Positif,Livraison
+96,"Ni cher ni bon marché, tarif normal.",Neutre,Prix
+97,"Réponse reçue en 48 heures, standard..",Neutre,Service Client
+98,"Déçu par cet article, il ne fonctionne pas du tout..",Négatif,Produit
+99,"Des frais cachés s'ajoutent à la fin, ce n'est pas honnête.",Négatif,Prix
+100,"Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+101,"Conseiller au téléphone impoli, agressif et d'aucune aide. à voir dans le temps.",Négatif,Service Client
+102,"Réponse reçue en 48 heures, standard.",Neutre,Service Client
+103,"Pour ma part, Je suis surpris de la qualité pour un prix aussi bas. Je conseille.",Positif,Prix
+104,"Déçu par cet article, il ne fonctionne pas du tout.",Négatif,Produit
+105,Tarif standard sans réduction particulière.,Neutre,Prix
+106,"Délai d'attente interminable pour la livraison, plus d'une semaine de retard.",Négatif,Livraison
+107,Trop cher pour une qualité aussi basique. !,Négatif,Prix
+108,"La qualité est médiocre, le produit s'est cassé après deux jours d'utilisation. !",Négatif,Produit
+109,"Honnêtement, Temps de livraison moyen, emballage standard. Je conseille.",Neutre,Livraison
+110,Le colis est arrivé avec trois jours de retard et carton écrasé.,Négatif,Livraison
+111,"Je l'utilise tous les jours, c'est un produit génial !",Positif,Produit
+112,"Bonjour, Ni cher ni bon marché, tarif normal.",Neutre,Prix
+113,Support client réactif et très professionnel. Problème résolu !,Positif,Service Client
+114,Service après-vente incompétent qui n'a pas compris mon problème.,Négatif,Service Client
+115,"Conforme à la description, les finitions sont magnifiques. !",Positif,Produit
+116,Très bon prix avec la promotion en cours.,Positif,Prix
+117,"Bonjour, Réponse reçue en 48 heures, standard. !",Neutre,Service Client
+118,"Honnêtement, Le support a été d'une grande aide pour configurer l'appareil.",Positif,Service Client
+119,"Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+120,"Déçu par cet article, il ne fonctionne pas du tout.",Négatif,Produit
+121,"Matériel de qualité professionnelle, très simple à utiliser. à voir dans le temps.",Positif,Produit
+122,"Produit défectueux à l'arrivée, impossible de l'allumer.",Négatif,Produit
+123,"Réponse reçue en 48 heures, standard.",Neutre,Service Client
+124,"Qualité standard, conforme au prix payé.",Neutre,Produit
+125,"Livraison catastrophique, le colis a été perdu par le transporteur.",Négatif,Livraison
+126,"Déçu par cet article, il ne fonctionne pas du tout.",Négatif,Produit
+127,"Excellent rapport qualité prix, je rachèterai sans hésiter.",Positif,Prix
+128,"Livraison correcte, dans les délais annoncés. Je conseille.",Neutre,Livraison
+129,"Temps de livraison moyen, emballage standard. Déçu.",Neutre,Livraison
+130,Le SAV a traité ma demande de remboursement en quelques minutes.,Positif,Service Client
+131,Support client réactif et très professionnel. Problème résolu !,Positif,Service Client
+132,"Délai d'attente interminable pour la livraison, plus d'une semaine de retard.",Négatif,Livraison
+133,"Fonctionne comme prévu, mais n'a rien d'exceptionnel. à voir dans le temps.",Neutre,Produit
+134,"Qualité standard, conforme au prix payé.",Neutre,Produit
+135,Une équipe de support client très humaine et attentionnée.,Positif,Service Client
+136,"Retard de livraison inadmissible, aucun suivi disponible.",Négatif,Livraison
+137,SAV poli mais procédure d'échange un peu longue.,Neutre,Service Client
+138,"Pour ma part, Le support a été d'une grande aide pour configurer l'appareil.",Positif,Service Client
+139,J'attends une réponse du support par mail depuis deux semaines.,Négatif,Service Client
+140,"Pour ma part, Rapport qualité-prix très défavorable, je regrette cet achat coûteux.",Négatif,Prix
+141,"Retard de livraison inadmissible, aucun suivi disponible.",Négatif,Livraison
+142,"Produit moyen, fait le job mais sans plus.",Neutre,Produit
+143,"Livraison correcte, dans les délais annoncés. Déçu.",Neutre,Livraison
+144,"Le produit est de super qualité, je recommande vivement !",Positif,Produit
+145,"Conseiller au téléphone impoli, agressif et d'aucune aide..",Négatif,Service Client
+146,Service après-vente incompétent qui n'a pas compris mon problème.,Négatif,Service Client
+147,Service après-vente incompétent qui n'a pas compris mon problème.,Négatif,Service Client
+148,"Des frais cachés s'ajoutent à la fin, ce n'est pas honnête.",Négatif,Prix
+149,"Livraison catastrophique, le colis a été perdu par le transporteur.",Négatif,Livraison
+150,"Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+151,"Service client au top, aimable et très efficace.",Positif,Service Client
+152,"Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+153,"Service client au top, aimable et très efficace.",Positif,Service Client
+154,"Reçu très rapidement, emballage soigné et sécurisé.",Positif,Livraison
+155,"Retard de livraison inadmissible, aucun suivi disponible.",Négatif,Livraison
+156,Mon avis : Le prix est dans la moyenne du marché.,Neutre,Prix
+157,"Arrivé pile à l'heure, rien à redire sur le transport.",Positif,Livraison
+158,Le SAV refuse de me rembourser malgré le défaut. Service lamentable.,Négatif,Service Client
+159,Très bon prix avec la promotion en cours. à voir dans le temps.,Positif,Prix
+160,"Honnêtement, Prix correct pour les prestations fournies.",Neutre,Prix
+161,"Aucune considération pour le client, SAV inexistant. à voir dans le temps.",Négatif,Service Client
+162,"Honnêtement, Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+163,"Conforme à la description, les finitions sont magnifiques.",Positif,Produit
+164,"Je l'utilise tous les jours, c'est un produit génial !",Positif,Produit
+165,"Pour ma part, Conforme à la description, les finitions sont magnifiques.",Positif,Produit
+166,"Mon avis : Expédition rapide et colis très bien protégé, merci !",Positif,Livraison
+167,"Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+168,Le prix est dans la moyenne du marché.,Neutre,Prix
+169,Un prix très compétitif pour une telle qualité de service.,Positif,Prix
+170,Le prix est dans la moyenne du marché.,Neutre,Prix
+171,Très bonne écoute de la part du conseiller au téléphone.,Positif,Service Client
+172,Le SAV a traité ma demande de remboursement en quelques minutes.,Positif,Service Client
+173,"Rapport qualité-prix très défavorable, je regrette cet achat coûteux. Je conseille.",Négatif,Prix
+174,Support client réactif et très professionnel. Problème résolu !,Positif,Service Client
+175,Le conseiller a fait ce qu'il pouvait sans plus.,Neutre,Service Client
+176,"Honnêtement, Passez votre chemin, c'est du bas de gamme. à voir dans le temps.",Négatif,Produit
+177,Le conseiller a fait ce qu'il pouvait sans plus. Déçu.,Neutre,Service Client
+178,"Plastique de mauvaise qualité, très fragile, je ne recommande pas.",Négatif,Produit
+179,"Suivi de livraison mensonger, soit-disant livré mais rien reçu. !",Négatif,Livraison
+180,Ne correspond pas du tout à la photo ni à la description.,Négatif,Produit
+181,Le conseiller a fait ce qu'il pouvait sans plus. Déçu.,Neutre,Service Client
+182,"Bonjour, Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+183,"Bonjour, Service client au top, aimable et très efficace. Déçu.",Positif,Service Client
+184,"Mon avis : Délai d'attente interminable pour la livraison, plus d'une semaine de retard.",Négatif,Livraison
+185,"Déçu par cet article, il ne fonctionne pas du tout. Déçu.",Négatif,Produit
+186,"Pour ma part, Très satisfait de cet achat, fonctionne parfaitement bien..",Positif,Produit
+187,"Réponse reçue en 48 heures, standard.",Neutre,Service Client
+188,"Des frais cachés s'ajoutent à la fin, ce n'est pas honnête. Je conseille.",Négatif,Prix
+189,Beaucoup trop cher pour ce que c'est réellement.,Négatif,Prix
+190,Le prix est dans la moyenne du marché. Je conseille.,Neutre,Prix
+191,"Service client au top, aimable et très efficace.",Positif,Service Client
+192,Livreur désagréable qui a laissé le colis sur le trottoir.,Négatif,Livraison
+193,"Qualité standard, conforme au prix payé.",Neutre,Produit
+194,"Reçu très rapidement, emballage soigné et sécurisé..",Positif,Livraison
+195,J'attends une réponse du support par mail depuis deux semaines.,Négatif,Service Client
+196,Ne correspond pas du tout à la photo ni à la description.,Négatif,Produit
+197,"Honnêtement, Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+198,"Temps de livraison moyen, emballage standard.",Neutre,Livraison
+199,"Le tarif a augmenté de 20% sans explication, c'est abusé.",Négatif,Prix
+200,"Déçu par cet article, il ne fonctionne pas du tout.",Négatif,Produit
+201,"Mon avis : Produit moyen, fait le job mais sans plus.",Neutre,Produit
+202,"Bonjour, Aucune considération pour le client, SAV inexistant.",Négatif,Service Client
+203,"Pour ma part, Réponse reçue en 48 heures, standard.",Neutre,Service Client
+204,"Déçu par cet article, il ne fonctionne pas du tout..",Négatif,Produit
+205,Le prix est prohibitif par rapport aux performances du produit.,Négatif,Prix
+206,Temps d'attente correct pour joindre le support.,Neutre,Service Client
+207,"Plastique de mauvaise qualité, très fragile, je ne recommande pas.",Négatif,Produit
+208,"Reçu très rapidement, emballage soigné et sécurisé. !",Positif,Livraison
+209,"Déçu par cet article, il ne fonctionne pas du tout.",Négatif,Produit
+210,"Pour ma part, Livré avec un jour de retard mais carton intact.",Neutre,Livraison
+211,"Reçu très rapidement, emballage soigné et sécurisé.",Positif,Livraison
+212,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+213,"Arrivé pile à l'heure, rien à redire sur le transport..",Positif,Livraison
+214,Très bon prix avec la promotion en cours.,Positif,Prix
+215,Livreur désagréable qui a laissé le colis sur le trottoir.,Négatif,Livraison
+216,"Matériel de qualité professionnelle, très simple à utiliser.",Positif,Produit
+217,"Pour ma part, Expédition rapide et colis très bien protégé, merci !",Positif,Livraison
+218,"Le tarif a augmenté de 20% sans explication, c'est abusé.",Négatif,Prix
+219,"Des frais cachés s'ajoutent à la fin, ce n'est pas honnête.",Négatif,Prix
+220,On trouve exactement le même produit deux fois moins cher ailleurs.,Négatif,Prix
+221,Le support a été d'une grande aide pour configurer l'appareil.,Positif,Service Client
+222,Le SAV a traité ma demande de remboursement en quelques minutes.,Positif,Service Client
+223,"Temps de livraison moyen, emballage standard.",Neutre,Livraison
+224,"Ni cher ni bon marché, tarif normal.",Neutre,Prix
+225,"Livraison correcte, dans les délais annoncés. !",Neutre,Livraison
+226,"Bonjour, Le colis est arrivé avec trois jours de retard et carton écrasé. Je conseille.",Négatif,Livraison
+227,"Le tarif a augmenté de 20% sans explication, c'est abusé.",Négatif,Prix
+228,"Produit moyen, fait le job mais sans plus.",Neutre,Produit
+229,Rapport qualité-prix imbattable sur le marché actuel.,Positif,Prix
+230,Très bon prix avec la promotion en cours.,Positif,Prix
+231,On trouve exactement le même produit deux fois moins cher ailleurs.,Négatif,Prix
+232,Le prix est dans la moyenne du marché.,Neutre,Prix
+233,Le SAV a traité ma demande de remboursement en quelques minutes.,Positif,Service Client
+234,Un prix très compétitif pour une telle qualité de service.,Positif,Prix
+235,Mon avis : Les fonctionnalités promises ne sont pas là. Très décevant.,Négatif,Produit
+236,Je suis surpris de la qualité pour un prix aussi bas.,Positif,Prix
+237,"Impossible de joindre le service client, le téléphone sonne dans le vide.",Négatif,Service Client
+238,"Je l'utilise tous les jours, c'est un produit génial !",Positif,Produit
+239,"Honnêtement, Passez votre chemin, c'est du bas de gamme.",Négatif,Produit
+240,"Pour ma part, Service après-vente incompétent qui n'a pas compris mon problème.",Négatif,Service Client
+241,"Pour ma part, Bonne affaire, beaucoup moins cher qu'en magasin physique.",Positif,Prix
+242,Remplacement du produit défectueux fait sans aucun frais ni discussion.,Positif,Service Client
+243,J'attends une réponse du support par mail depuis deux semaines.,Négatif,Service Client
+244,"Honnêtement, Plastique de mauvaise qualité, très fragile, je ne recommande pas.",Négatif,Produit
+245,Tarif tout à fait raisonnable et accessible. Déçu.,Positif,Prix
+246,Prix correct pour les prestations fournies.,Neutre,Prix
+247,Mon avis : Remplacement du produit défectueux fait sans aucun frais ni discussion.,Positif,Service Client
+248,Mon avis : Un prix très compétitif pour une telle qualité de service.,Positif,Prix
+249,"Bonjour, Fonctionne à merveille, le design est superbe. à voir dans le temps.",Positif,Produit
+250,Remplacement du produit défectueux fait sans aucun frais ni discussion.,Positif,Service Client
+251,"Produit moyen, fait le job mais sans plus.",Neutre,Produit
+252,Colis reçu. Rien à signaler de particulier.,Neutre,Livraison
+253,"Rapport qualité-prix très défavorable, je regrette cet achat coûteux.",Négatif,Prix
+254,"Bonjour, Le conseiller a fait ce qu'il pouvait sans plus.",Neutre,Service Client
+255,"Honnêtement, Le prix est dans la moyenne du marché.",Neutre,Prix
+256,Le prix est prohibitif par rapport aux performances du produit.,Négatif,Prix
+257,"Livré le lendemain de ma commande, service impeccable.",Positif,Livraison
+258,"Bonjour, Produit moyen, fait le job mais sans plus..",Neutre,Produit
+259,Le support a été d'une grande aide pour configurer l'appareil..,Positif,Service Client
+260,"La qualité est médiocre, le produit s'est cassé après deux jours d'utilisation.",Négatif,Produit
+261,"Suivi de livraison mensonger, soit-disant livré mais rien reçu.",Négatif,Livraison
+262,Temps d'attente correct pour joindre le support. Déçu.,Neutre,Service Client
+263,SAV poli mais procédure d'échange un peu longue.,Neutre,Service Client
+264,On me ballade de service en service sans résoudre mon problème. Je conseille.,Négatif,Service Client
+265,Le prix est prohibitif par rapport aux performances du produit.,Négatif,Prix
+266,Mon avis : Remplacement du produit défectueux fait sans aucun frais ni discussion.,Positif,Service Client
+267,"Fonctionne à merveille, le design est superbe.",Positif,Produit
+268,"Bonjour, Le prix est dans la moyenne du marché.",Neutre,Prix
+269,Le SAV refuse de me rembourser malgré le défaut. Service lamentable.,Négatif,Service Client
+270,"Plastique de mauvaise qualité, très fragile, je ne recommande pas.",Négatif,Produit
+271,Le SAV refuse de me rembourser malgré le défaut. Service lamentable..,Négatif,Service Client
+272,"Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+273,"Des frais cachés s'ajoutent à la fin, ce n'est pas honnête.",Négatif,Prix
+274,Très bonne écoute de la part du conseiller au téléphone. Déçu.,Positif,Service Client
+275,"Super service de livraison, livreur très courtois et ponctuel.",Positif,Livraison
+276,Temps d'attente correct pour joindre le support.,Neutre,Service Client
+277,"Honnêtement, Retard de livraison inadmissible, aucun suivi disponible..",Négatif,Livraison
+278,"Réponse reçue en 48 heures, standard.",Neutre,Service Client
+279,"Ni cher ni bon marché, tarif normal.",Neutre,Prix
+280,Support client réactif et très professionnel. Problème résolu !,Positif,Service Client
+281,Un prix très compétitif pour une telle qualité de service.,Positif,Prix
+282,"Mon avis : Super service de livraison, livreur très courtois et ponctuel.",Positif,Livraison
+283,"Bonjour, Temps d'attente correct pour joindre le support.",Neutre,Service Client
+284,"Un excellent produit, robuste et conforme à mes attentes. à voir dans le temps.",Positif,Produit
+285,Beaucoup trop cher pour ce que c'est réellement.,Négatif,Prix
+286,"Pour ma part, Déçu par cet article, il ne fonctionne pas du tout.",Négatif,Produit
+287,Prix correct pour les prestations fournies.,Neutre,Prix
+288,"Réponse reçue en 48 heures, standard.",Neutre,Service Client
+289,"Produit défectueux à l'arrivée, impossible de l'allumer. Déçu.",Négatif,Produit
+290,Mon avis : Tarif tout à fait raisonnable et accessible.,Positif,Prix
+291,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+292,"Super service de livraison, livreur très courtois et ponctuel.",Positif,Livraison
+293,Tarif standard sans réduction particulière. Déçu.,Neutre,Prix
+294,Remplacement du produit défectueux fait sans aucun frais ni discussion. !,Positif,Service Client
+295,"Temps de livraison moyen, emballage standard.",Neutre,Livraison
+296,"Bonjour, Je l'utilise tous les jours, c'est un produit génial !",Positif,Produit
+297,Mon avis : SAV poli mais procédure d'échange un peu longue.,Neutre,Service Client
+298,"Livraison correcte, dans les délais annoncés.",Neutre,Livraison
+299,Prix correct pour les prestations fournies. Déçu.,Neutre,Prix
+300,Mon avis : Livreur désagréable qui a laissé le colis sur le trottoir.,Négatif,Livraison
+301,"Pour ma part, Le SAV a traité ma demande de remboursement en quelques minutes.",Positif,Service Client
+302,"Pour ma part, Le support a été d'une grande aide pour configurer l'appareil.",Positif,Service Client
+303,"Un excellent produit, robuste et conforme à mes attentes.",Positif,Produit
+304,SAV poli mais procédure d'échange un peu longue.,Neutre,Service Client
+305,Service après-vente incompétent qui n'a pas compris mon problème.,Négatif,Service Client
+306,"Livraison en 24h chrono, impressionnant ! Je conseille.",Positif,Livraison
+307,"Pour ma part, Colis reçu. Rien à signaler de particulier. !",Neutre,Livraison
+308,"Le tarif a augmenté de 20% sans explication, c'est abusé.",Négatif,Prix
+309,"Temps de livraison moyen, emballage standard.",Neutre,Livraison
+310,"Très satisfait de cet achat, fonctionne parfaitement bien.",Positif,Produit
+311,Le SAV refuse de me rembourser malgré le défaut. Service lamentable. à voir dans le temps.,Négatif,Service Client
+312,"Livraison correcte, dans les délais annoncés.",Neutre,Livraison
+313,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+314,"Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+315,Rapport qualité-prix imbattable sur le marché actuel.,Positif,Prix
+316,"Conforme à la description, les finitions sont magnifiques.",Positif,Produit
+317,Colis reçu. Rien à signaler de particulier.,Neutre,Livraison
+318,Très bon prix avec la promotion en cours. !,Positif,Prix
+319,"Bonne affaire, beaucoup moins cher qu'en magasin physique.",Positif,Prix
+320,"Conseiller au téléphone impoli, agressif et d'aucune aide.",Négatif,Service Client
+321,Remplacement du produit défectueux fait sans aucun frais ni discussion.,Positif,Service Client
+322,"Service client au top, aimable et très efficace.",Positif,Service Client
+323,"Bonjour, Le colis est arrivé avec trois jours de retard et carton écrasé. à voir dans le temps.",Négatif,Livraison
+324,Très bonne écoute de la part du conseiller au téléphone.,Positif,Service Client
+325,"Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+326,"Pour ma part, Retard de livraison inadmissible, aucun suivi disponible.",Négatif,Livraison
+327,On me ballade de service en service sans résoudre mon problème.,Négatif,Service Client
+328,Le prix est dans la moyenne du marché.,Neutre,Prix
+329,"Service client au top, aimable et très efficace.",Positif,Service Client
+330,"Excellent rapport qualité prix, je rachèterai sans hésiter.",Positif,Prix
+331,"Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+332,Le SAV refuse de me rembourser malgré le défaut. Service lamentable.,Négatif,Service Client
+333,"Réponse reçue en 48 heures, standard.",Neutre,Service Client
+334,"Honnêtement, Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+335,Le conseiller a fait ce qu'il pouvait sans plus. !,Neutre,Service Client
+336,"Pour ma part, Impossible de joindre le service client, le téléphone sonne dans le vide.",Négatif,Service Client
+337,Ne correspond pas du tout à la photo ni à la description. à voir dans le temps.,Négatif,Produit
+338,SAV poli mais procédure d'échange un peu longue. !,Neutre,Service Client
+339,SAV poli mais procédure d'échange un peu longue.,Neutre,Service Client
+340,On trouve exactement le même produit deux fois moins cher ailleurs.,Négatif,Prix
+341,"Pour ma part, Tarif standard sans réduction particulière. Déçu.",Neutre,Prix
+342,Le prix est dans la moyenne du marché.,Neutre,Prix
+343,Le colis est arrivé ouvert et abîmé. Très mécontent.,Négatif,Livraison
+344,"Pour ma part, Tarif tout à fait raisonnable et accessible.",Positif,Prix
+345,Temps d'attente correct pour joindre le support. Déçu.,Neutre,Service Client
+346,"Super service de livraison, livreur très courtois et ponctuel.",Positif,Livraison
+347,"Ni cher ni bon marché, tarif normal.",Neutre,Prix
+348,Tarif tout à fait raisonnable et accessible. Déçu.,Positif,Prix
+349,"Matériel de qualité professionnelle, très simple à utiliser.",Positif,Produit
+350,Le conseiller a fait ce qu'il pouvait sans plus..,Neutre,Service Client
+351,"Temps de livraison moyen, emballage standard. !",Neutre,Livraison
+352,"Passez votre chemin, c'est du bas de gamme.",Négatif,Produit
+353,Tarif standard sans réduction particulière.,Neutre,Prix
+354,Les fonctionnalités promises ne sont pas là. Très décevant.,Négatif,Produit
+355,Je suis surpris de la qualité pour un prix aussi bas.,Positif,Prix
+356,"Le tarif a augmenté de 20% sans explication, c'est abusé.",Négatif,Prix
+357,Le conseiller a fait ce qu'il pouvait sans plus.,Neutre,Service Client
+358,"Conforme à la description, les finitions sont magnifiques.",Positif,Produit
+359,Colis reçu. Rien à signaler de particulier. à voir dans le temps.,Neutre,Livraison
+360,Colis reçu. Rien à signaler de particulier.,Neutre,Livraison
+361,Je suis surpris de la qualité pour un prix aussi bas.,Positif,Prix
+362,Mon avis : On trouve exactement le même produit deux fois moins cher ailleurs.,Négatif,Prix
+363,"Aucune considération pour le client, SAV inexistant.",Négatif,Service Client
+364,"Livraison en 24h chrono, impressionnant !",Positif,Livraison
+365,"Pour ma part, Un excellent produit, robuste et conforme à mes attentes.",Positif,Produit
+366,"Bonjour, Je suis surpris de la qualité pour un prix aussi bas.",Positif,Prix
+367,"Passez votre chemin, c'est du bas de gamme.",Négatif,Produit
+368,"Expédition rapide et colis très bien protégé, merci !",Positif,Livraison
+369,"Honnêtement, Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+370,"Honnêtement, Rapport qualité-prix imbattable sur le marché actuel.",Positif,Prix
+371,"Qualité standard, conforme au prix payé. à voir dans le temps.",Neutre,Produit
+372,"Produit défectueux à l'arrivée, impossible de l'allumer.",Négatif,Produit
+373,Colis reçu. Rien à signaler de particulier.,Neutre,Livraison
+374,"Le tarif a augmenté de 20% sans explication, c'est abusé.",Négatif,Prix
+375,Prix correct pour les prestations fournies.,Neutre,Prix
+376,"Pour ma part, Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+377,"Temps de livraison moyen, emballage standard.",Neutre,Livraison
+378,"Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+379,"Des frais cachés s'ajoutent à la fin, ce n'est pas honnête..",Négatif,Prix
+380,"Produit défectueux à l'arrivée, impossible de l'allumer.",Négatif,Produit
+381,"Service client au top, aimable et très efficace..",Positif,Service Client
+382,Livreur désagréable qui a laissé le colis sur le trottoir.,Négatif,Livraison
+383,"Délai d'attente interminable pour la livraison, plus d'une semaine de retard.",Négatif,Livraison
+384,Mon avis : Tarif tout à fait raisonnable et accessible.,Positif,Prix
+385,Remplacement du produit défectueux fait sans aucun frais ni discussion. à voir dans le temps.,Positif,Service Client
+386,"Arrivé pile à l'heure, rien à redire sur le transport.",Positif,Livraison
+387,"Le tarif a augmenté de 20% sans explication, c'est abusé.",Négatif,Prix
+388,"Reçu très rapidement, emballage soigné et sécurisé. Déçu.",Positif,Livraison
+389,Mon avis : Le support a été d'une grande aide pour configurer l'appareil.,Positif,Service Client
+390,Le prix est dans la moyenne du marché. !,Neutre,Prix
+391,"Honnêtement, Rapport qualité-prix imbattable sur le marché actuel.",Positif,Prix
+392,"Arrivé pile à l'heure, rien à redire sur le transport..",Positif,Livraison
+393,Prix correct pour les prestations fournies.,Neutre,Prix
+394,"Réponse reçue en 48 heures, standard.",Neutre,Service Client
+395,"Honnêtement, Le produit est de super qualité, je recommande vivement !",Positif,Produit
+396,"La qualité est médiocre, le produit s'est cassé après deux jours d'utilisation. !",Négatif,Produit
+397,"Livraison correcte, dans les délais annoncés.",Neutre,Livraison
+398,"La qualité est médiocre, le produit s'est cassé après deux jours d'utilisation.",Négatif,Produit
+399,"Bonjour, Très bon prix avec la promotion en cours.",Positif,Prix
+400,Rapport qualité-prix imbattable sur le marché actuel.,Positif,Prix
+401,"Je l'utilise tous les jours, c'est un produit génial !",Positif,Produit
+402,"Pour ma part, SAV poli mais procédure d'échange un peu longue.",Neutre,Service Client
+403,"Le produit est de super qualité, je recommande vivement !",Positif,Produit
+404,"Rapport qualité-prix très défavorable, je regrette cet achat coûteux. Je conseille.",Négatif,Prix
+405,"Honnêtement, Produit moyen, fait le job mais sans plus.",Neutre,Produit
+406,"Retard de livraison inadmissible, aucun suivi disponible.",Négatif,Livraison
+407,Le prix est prohibitif par rapport aux performances du produit.,Négatif,Prix
+408,"Honnêtement, La qualité est médiocre, le produit s'est cassé après deux jours d'utilisation.",Négatif,Produit
+409,Le SAV refuse de me rembourser malgré le défaut. Service lamentable.,Négatif,Service Client
+410,Très bonne écoute de la part du conseiller au téléphone.,Positif,Service Client
+411,Beaucoup trop cher pour ce que c'est réellement.,Négatif,Prix
+412,"Bonjour, Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+413,Trop cher pour une qualité aussi basique.,Négatif,Prix
+414,"Honnêtement, Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+415,"Mon avis : Un excellent produit, robuste et conforme à mes attentes.",Positif,Produit
+416,Beaucoup trop cher pour ce que c'est réellement.,Négatif,Prix
+417,"Expédition rapide et colis très bien protégé, merci !",Positif,Livraison
+418,"Délai d'attente interminable pour la livraison, plus d'une semaine de retard.",Négatif,Livraison
+419,"Produit défectueux à l'arrivée, impossible de l'allumer.",Négatif,Produit
+420,"Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+421,On me ballade de service en service sans résoudre mon problème.,Négatif,Service Client
+422,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+423,"Bonjour, Livraison en 24h chrono, impressionnant !",Positif,Livraison
+424,"Passez votre chemin, c'est du bas de gamme.",Négatif,Produit
+425,Colis reçu. Rien à signaler de particulier. Je conseille.,Neutre,Livraison
+426,"Reçu très rapidement, emballage soigné et sécurisé.",Positif,Livraison
+427,"Mon avis : Passez votre chemin, c'est du bas de gamme.",Négatif,Produit
+428,"Qualité standard, conforme au prix payé. Je conseille.",Neutre,Produit
+429,"Pour ma part, Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+430,"Honnêtement, Le colis est arrivé ouvert et abîmé. Très mécontent.",Négatif,Livraison
+431,Le SAV refuse de me rembourser malgré le défaut. Service lamentable. à voir dans le temps.,Négatif,Service Client
+432,Le colis est arrivé ouvert et abîmé. Très mécontent.,Négatif,Livraison
+433,Le colis est arrivé ouvert et abîmé. Très mécontent. !,Négatif,Livraison
+434,"Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+435,"Passez votre chemin, c'est du bas de gamme.",Négatif,Produit
+436,"Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+437,"Livraison ultra rapide, colis reçu en parfait état !",Positif,Livraison
+438,"Qualité standard, conforme au prix payé. Déçu.",Neutre,Produit
+439,"Honnêtement, Le support a été d'une grande aide pour configurer l'appareil.",Positif,Service Client
+440,"Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+441,"Rapport qualité-prix très défavorable, je regrette cet achat coûteux.",Négatif,Prix
+442,"Super service de livraison, livreur très courtois et ponctuel.",Positif,Livraison
+443,Le SAV a traité ma demande de remboursement en quelques minutes. !,Positif,Service Client
+444,Rapport qualité-prix imbattable sur le marché actuel. Déçu.,Positif,Prix
+445,"Qualité standard, conforme au prix payé.",Neutre,Produit
+446,"Des frais cachés s'ajoutent à la fin, ce n'est pas honnête.",Négatif,Prix
+447,"Fonctionne à merveille, le design est superbe.",Positif,Produit
+448,Service après-vente incompétent qui n'a pas compris mon problème.,Négatif,Service Client
+449,"Le tarif a augmenté de 20% sans explication, c'est abusé.",Négatif,Prix
+450,"Matériel de qualité professionnelle, très simple à utiliser.",Positif,Produit
+451,Mon avis : Temps d'attente correct pour joindre le support. Déçu.,Neutre,Service Client
+452,"Reçu très rapidement, emballage soigné et sécurisé.",Positif,Livraison
+453,"Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+454,"Pour ma part, Trop cher pour une qualité aussi basique.",Négatif,Prix
+455,Mon avis : Le prix est prohibitif par rapport aux performances du produit.,Négatif,Prix
+456,Le SAV a traité ma demande de remboursement en quelques minutes.,Positif,Service Client
+457,Les fonctionnalités promises ne sont pas là. Très décevant.,Négatif,Produit
+458,"Aucune considération pour le client, SAV inexistant. !",Négatif,Service Client
+459,Service après-vente incompétent qui n'a pas compris mon problème.,Négatif,Service Client
+460,"Super service de livraison, livreur très courtois et ponctuel.",Positif,Livraison
+461,"Reçu très rapidement, emballage soigné et sécurisé..",Positif,Livraison
+462,"Très satisfait de cet achat, fonctionne parfaitement bien.",Positif,Produit
+463,"Fonctionne à merveille, le design est superbe.",Positif,Produit
+464,"Bonjour, Service après-vente incompétent qui n'a pas compris mon problème.",Négatif,Service Client
+465,On trouve exactement le même produit deux fois moins cher ailleurs.,Négatif,Prix
+466,"Honnêtement, Aucune considération pour le client, SAV inexistant.",Négatif,Service Client
+467,Un prix très compétitif pour une telle qualité de service.,Positif,Prix
+468,Le prix est dans la moyenne du marché.,Neutre,Prix
+469,"Mon avis : Livraison en 24h chrono, impressionnant ! Déçu.",Positif,Livraison
+470,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+471,"Livraison catastrophique, le colis a été perdu par le transporteur..",Négatif,Livraison
+472,"Réponse reçue en 48 heures, standard..",Neutre,Service Client
+473,"Livraison correcte, dans les délais annoncés. Je conseille.",Neutre,Livraison
+474,"Arrivé pile à l'heure, rien à redire sur le transport.",Positif,Livraison
+475,Le conseiller a fait ce qu'il pouvait sans plus.,Neutre,Service Client
+476,On me ballade de service en service sans résoudre mon problème..,Négatif,Service Client
+477,"Réponse reçue en 48 heures, standard.",Neutre,Service Client
+478,"Conseiller au téléphone impoli, agressif et d'aucune aide.",Négatif,Service Client
+479,Beaucoup trop cher pour ce que c'est réellement.,Négatif,Prix
+480,"Ni cher ni bon marché, tarif normal.",Neutre,Prix
+481,"Honnêtement, Livraison catastrophique, le colis a été perdu par le transporteur.",Négatif,Livraison
+482,Mon avis : Livré avec un jour de retard mais carton intact. !,Neutre,Livraison
+483,"Livraison ultra rapide, colis reçu en parfait état !",Positif,Livraison
+484,"Pour ma part, Service après-vente incompétent qui n'a pas compris mon problème. Je conseille.",Négatif,Service Client
+485,Je suis surpris de la qualité pour un prix aussi bas.,Positif,Prix
+486,"Bonjour, La qualité est médiocre, le produit s'est cassé après deux jours d'utilisation.",Négatif,Produit
+487,"Plastique de mauvaise qualité, très fragile, je ne recommande pas.",Négatif,Produit
+488,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+489,Beaucoup trop cher pour ce que c'est réellement.,Négatif,Prix
+490,"Expédition rapide et colis très bien protégé, merci !",Positif,Livraison
+491,Support client réactif et très professionnel. Problème résolu !,Positif,Service Client
+492,"Pour ma part, Livreur désagréable qui a laissé le colis sur le trottoir.",Négatif,Livraison
+493,Le prix est dans la moyenne du marché.,Neutre,Prix
+494,"Plastique de mauvaise qualité, très fragile, je ne recommande pas. !",Négatif,Produit
+495,"La qualité est médiocre, le produit s'est cassé après deux jours d'utilisation.",Négatif,Produit
+496,"Expédition rapide et colis très bien protégé, merci !",Positif,Livraison
+497,"Je l'utilise tous les jours, c'est un produit génial !",Positif,Produit
+498,"Rapport qualité-prix très défavorable, je regrette cet achat coûteux.",Négatif,Prix
+499,SAV poli mais procédure d'échange un peu longue.,Neutre,Service Client
+500,Le colis est arrivé ouvert et abîmé. Très mécontent.,Négatif,Livraison
+501,"Fonctionne à merveille, le design est superbe.",Positif,Produit
+502,"Temps de livraison moyen, emballage standard. Déçu.",Neutre,Livraison
+503,SAV poli mais procédure d'échange un peu longue.,Neutre,Service Client
+504,Ne correspond pas du tout à la photo ni à la description.,Négatif,Produit
+505,"Matériel de qualité professionnelle, très simple à utiliser.",Positif,Produit
+506,"Rapport qualité-prix très défavorable, je regrette cet achat coûteux. !",Négatif,Prix
+507,"Pour ma part, Une équipe de support client très humaine et attentionnée.",Positif,Service Client
+508,"Qualité standard, conforme au prix payé.",Neutre,Produit
+509,"Arrivé pile à l'heure, rien à redire sur le transport.",Positif,Livraison
+510,"Mon avis : Livré le lendemain de ma commande, service impeccable.",Positif,Livraison
+511,Service après-vente incompétent qui n'a pas compris mon problème.,Négatif,Service Client
+512,Tarif standard sans réduction particulière.,Neutre,Prix
+513,"Bonjour, Livré le lendemain de ma commande, service impeccable.",Positif,Livraison
+514,"Livraison en 24h chrono, impressionnant !",Positif,Livraison
+515,"Honnêtement, Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+516,"Bonjour, Matériel de qualité professionnelle, très simple à utiliser.",Positif,Produit
+517,"Passez votre chemin, c'est du bas de gamme.",Négatif,Produit
+518,"Ni cher ni bon marché, tarif normal.",Neutre,Prix
+519,Le conseiller a fait ce qu'il pouvait sans plus.,Neutre,Service Client
+520,"Service client au top, aimable et très efficace.",Positif,Service Client
+521,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+522,"Mon avis : Aucune considération pour le client, SAV inexistant.",Négatif,Service Client
+523,"Produit moyen, fait le job mais sans plus.",Neutre,Produit
+524,"Livraison ultra rapide, colis reçu en parfait état !",Positif,Livraison
+525,Je suis surpris de la qualité pour un prix aussi bas.,Positif,Prix
+526,"Livraison ultra rapide, colis reçu en parfait état !",Positif,Livraison
+527,"Livraison ultra rapide, colis reçu en parfait état !",Positif,Livraison
+528,"Mon avis : Impossible de joindre le service client, le téléphone sonne dans le vide.",Négatif,Service Client
+529,"Bonjour, On trouve exactement le même produit deux fois moins cher ailleurs.",Négatif,Prix
+530,Une équipe de support client très humaine et attentionnée.,Positif,Service Client
+531,Le SAV refuse de me rembourser malgré le défaut. Service lamentable. !,Négatif,Service Client
+532,Rapport qualité-prix imbattable sur le marché actuel.,Positif,Prix
+533,"Retard de livraison inadmissible, aucun suivi disponible.",Négatif,Livraison
+534,"Super service de livraison, livreur très courtois et ponctuel.",Positif,Livraison
+535,"Bonjour, Super service de livraison, livreur très courtois et ponctuel.",Positif,Livraison
+536,"Bonne affaire, beaucoup moins cher qu'en magasin physique.",Positif,Prix
+537,Prix correct pour les prestations fournies.,Neutre,Prix
+538,"Pour ma part, Une équipe de support client très humaine et attentionnée.",Positif,Service Client
+539,Le colis est arrivé avec trois jours de retard et carton écrasé.,Négatif,Livraison
+540,"Déçu par cet article, il ne fonctionne pas du tout. Je conseille.",Négatif,Produit
+541,"Livraison correcte, dans les délais annoncés..",Neutre,Livraison
+542,SAV poli mais procédure d'échange un peu longue.,Neutre,Service Client
+543,"Je l'utilise tous les jours, c'est un produit génial !",Positif,Produit
+544,Le colis est arrivé ouvert et abîmé. Très mécontent.,Négatif,Livraison
+545,Mon avis : SAV poli mais procédure d'échange un peu longue.,Neutre,Service Client
+546,"Ni cher ni bon marché, tarif normal.",Neutre,Prix
+547,"Bonne affaire, beaucoup moins cher qu'en magasin physique.",Positif,Prix
+548,"Aucune considération pour le client, SAV inexistant.",Négatif,Service Client
+549,SAV poli mais procédure d'échange un peu longue. Je conseille.,Neutre,Service Client
+550,Ne correspond pas du tout à la photo ni à la description.,Négatif,Produit
+551,Temps d'attente correct pour joindre le support.,Neutre,Service Client
+552,"Bonjour, Une équipe de support client très humaine et attentionnée.",Positif,Service Client
+553,Le support a été d'une grande aide pour configurer l'appareil.,Positif,Service Client
+554,"Honnêtement, Des frais cachés s'ajoutent à la fin, ce n'est pas honnête.",Négatif,Prix
+555,"Temps de livraison moyen, emballage standard.",Neutre,Livraison
+556,"Pour ma part, Le support a été d'une grande aide pour configurer l'appareil.",Positif,Service Client
+557,"Reçu très rapidement, emballage soigné et sécurisé.",Positif,Livraison
+558,"Aucune considération pour le client, SAV inexistant.",Négatif,Service Client
+559,On me ballade de service en service sans résoudre mon problème.,Négatif,Service Client
+560,"Je l'utilise tous les jours, c'est un produit génial !",Positif,Produit
+561,SAV poli mais procédure d'échange un peu longue.,Neutre,Service Client
+562,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+563,Prix correct pour les prestations fournies.,Neutre,Prix
+564,Mon avis : Très bonne écoute de la part du conseiller au téléphone.,Positif,Service Client
+565,"Qualité standard, conforme au prix payé.",Neutre,Produit
+566,"Déçu par cet article, il ne fonctionne pas du tout.",Négatif,Produit
+567,Mon avis : Ne correspond pas du tout à la photo ni à la description.,Négatif,Produit
+568,"Honnêtement, Colis reçu. Rien à signaler de particulier.",Neutre,Livraison
+569,Le prix est dans la moyenne du marché. Déçu.,Neutre,Prix
+570,Le conseiller a fait ce qu'il pouvait sans plus.,Neutre,Service Client
+571,"Livraison ultra rapide, colis reçu en parfait état ! Déçu.",Positif,Livraison
+572,SAV poli mais procédure d'échange un peu longue.,Neutre,Service Client
+573,Mon avis : Support client réactif et très professionnel. Problème résolu !,Positif,Service Client
+574,SAV poli mais procédure d'échange un peu longue. Déçu.,Neutre,Service Client
+575,"Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+576,Le colis est arrivé avec trois jours de retard et carton écrasé.,Négatif,Livraison
+577,"Honnêtement, J'attends une réponse du support par mail depuis deux semaines.",Négatif,Service Client
+578,"Bonne affaire, beaucoup moins cher qu'en magasin physique. à voir dans le temps.",Positif,Prix
+579,Le prix est prohibitif par rapport aux performances du produit.,Négatif,Prix
+580,Le colis est arrivé avec trois jours de retard et carton écrasé.,Négatif,Livraison
+581,J'attends une réponse du support par mail depuis deux semaines.,Négatif,Service Client
+582,"Retard de livraison inadmissible, aucun suivi disponible.",Négatif,Livraison
+583,"Honnêtement, Livré le lendemain de ma commande, service impeccable.",Positif,Livraison
+584,Une équipe de support client très humaine et attentionnée.,Positif,Service Client
+585,Rapport qualité-prix imbattable sur le marché actuel.,Positif,Prix
+586,Les fonctionnalités promises ne sont pas là. Très décevant.,Négatif,Produit
+587,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+588,On me ballade de service en service sans résoudre mon problème. à voir dans le temps.,Négatif,Service Client
+589,"Conseiller au téléphone impoli, agressif et d'aucune aide.",Négatif,Service Client
+590,"Conforme à la description, les finitions sont magnifiques.",Positif,Produit
+591,Le conseiller a fait ce qu'il pouvait sans plus.,Neutre,Service Client
+592,"Ni cher ni bon marché, tarif normal.",Neutre,Prix
+593,"Temps de livraison moyen, emballage standard..",Neutre,Livraison
+594,"Des frais cachés s'ajoutent à la fin, ce n'est pas honnête.",Négatif,Prix
+595,"Conforme à la description, les finitions sont magnifiques.",Positif,Produit
+596,"Pour ma part, Conforme à la description, les finitions sont magnifiques.",Positif,Produit
+597,"Super service de livraison, livreur très courtois et ponctuel. Déçu.",Positif,Livraison
+598,"Honnêtement, Reçu très rapidement, emballage soigné et sécurisé.",Positif,Livraison
+599,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+600,"Pour ma part, Ni cher ni bon marché, tarif normal.",Neutre,Prix
+601,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+602,Mon avis : Le colis est arrivé avec trois jours de retard et carton écrasé. Je conseille.,Négatif,Livraison
+603,"Excellent rapport qualité prix, je rachèterai sans hésiter.",Positif,Prix
+604,"Réponse reçue en 48 heures, standard.",Neutre,Service Client
+605,"Passez votre chemin, c'est du bas de gamme.",Négatif,Produit
+606,"Qualité standard, conforme au prix payé. Déçu.",Neutre,Produit
+607,"Pour ma part, Tarif tout à fait raisonnable et accessible.",Positif,Prix
+608,Colis reçu. Rien à signaler de particulier.,Neutre,Livraison
+609,"Livraison en 24h chrono, impressionnant !.",Positif,Livraison
+610,Le prix est dans la moyenne du marché.,Neutre,Prix
+611,"Qualité standard, conforme au prix payé.",Neutre,Produit
+612,"Temps de livraison moyen, emballage standard.",Neutre,Livraison
+613,"Pour ma part, Colis reçu. Rien à signaler de particulier.",Neutre,Livraison
+614,Temps d'attente correct pour joindre le support. à voir dans le temps.,Neutre,Service Client
+615,"Produit moyen, fait le job mais sans plus.",Neutre,Produit
+616,Service après-vente incompétent qui n'a pas compris mon problème.,Négatif,Service Client
+617,Mon avis : Très bon prix avec la promotion en cours.,Positif,Prix
+618,"Honnêtement, On trouve exactement le même produit deux fois moins cher ailleurs.",Négatif,Prix
+619,"Correct dans l'ensemble, mais quelques détails à améliorer. Je conseille.",Neutre,Produit
+620,"Ni cher ni bon marché, tarif normal.",Neutre,Prix
+621,On trouve exactement le même produit deux fois moins cher ailleurs.,Négatif,Prix
+622,"Expédition rapide et colis très bien protégé, merci !",Positif,Livraison
+623,"Produit moyen, fait le job mais sans plus.",Neutre,Produit
+624,"Le tarif a augmenté de 20% sans explication, c'est abusé.",Négatif,Prix
+625,"Rapport qualité-prix très défavorable, je regrette cet achat coûteux. à voir dans le temps.",Négatif,Prix
+626,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+627,"Mon avis : Aucune considération pour le client, SAV inexistant.",Négatif,Service Client
+628,"Déçu par cet article, il ne fonctionne pas du tout..",Négatif,Produit
+629,"Service client au top, aimable et très efficace.",Positif,Service Client
+630,Très bon prix avec la promotion en cours.,Positif,Prix
+631,SAV poli mais procédure d'échange un peu longue. Déçu.,Neutre,Service Client
+632,"Impossible de joindre le service client, le téléphone sonne dans le vide.",Négatif,Service Client
+633,"Bonjour, Le SAV refuse de me rembourser malgré le défaut. Service lamentable.",Négatif,Service Client
+634,Rapport qualité-prix imbattable sur le marché actuel.,Positif,Prix
+635,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+636,On me ballade de service en service sans résoudre mon problème.,Négatif,Service Client
+637,Le prix est prohibitif par rapport aux performances du produit. Déçu.,Négatif,Prix
+638,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+639,Le SAV refuse de me rembourser malgré le défaut. Service lamentable.,Négatif,Service Client
+640,"Le produit est de super qualité, je recommande vivement !",Positif,Produit
+641,"Excellent rapport qualité prix, je rachèterai sans hésiter.",Positif,Prix
+642,"Réponse reçue en 48 heures, standard.",Neutre,Service Client
+643,"Produit moyen, fait le job mais sans plus.",Neutre,Produit
+644,Le conseiller a fait ce qu'il pouvait sans plus.,Neutre,Service Client
+645,Temps d'attente correct pour joindre le support. Je conseille.,Neutre,Service Client
+646,"Reçu très rapidement, emballage soigné et sécurisé.",Positif,Livraison
+647,Remplacement du produit défectueux fait sans aucun frais ni discussion.,Positif,Service Client
+648,"Service client au top, aimable et très efficace.",Positif,Service Client
+649,"Délai d'attente interminable pour la livraison, plus d'une semaine de retard.",Négatif,Livraison
+650,"Honnêtement, Service après-vente incompétent qui n'a pas compris mon problème.",Négatif,Service Client
+651,"Ni cher ni bon marché, tarif normal.",Neutre,Prix
+652,"Bonjour, Le conseiller a fait ce qu'il pouvait sans plus.",Neutre,Service Client
+653,"Mon avis : Conseiller au téléphone impoli, agressif et d'aucune aide. !",Négatif,Service Client
+654,"Produit défectueux à l'arrivée, impossible de l'allumer.",Négatif,Produit
+655,Service après-vente incompétent qui n'a pas compris mon problème. Déçu.,Négatif,Service Client
+656,Livreur désagréable qui a laissé le colis sur le trottoir.,Négatif,Livraison
+657,"Réponse reçue en 48 heures, standard.",Neutre,Service Client
+658,"Déçu par cet article, il ne fonctionne pas du tout..",Négatif,Produit
+659,"Le tarif a augmenté de 20% sans explication, c'est abusé. !",Négatif,Prix
+660,"Ni cher ni bon marché, tarif normal.",Neutre,Prix
+661,"Produit moyen, fait le job mais sans plus.",Neutre,Produit
+662,Support client réactif et très professionnel. Problème résolu !,Positif,Service Client
+663,"Des frais cachés s'ajoutent à la fin, ce n'est pas honnête. Je conseille.",Négatif,Prix
+664,"Honnêtement, Déçu par cet article, il ne fonctionne pas du tout.",Négatif,Produit
+665,"Plastique de mauvaise qualité, très fragile, je ne recommande pas.",Négatif,Produit
+666,Je suis surpris de la qualité pour un prix aussi bas.,Positif,Prix
+667,"Bonjour, Impossible de joindre le service client, le téléphone sonne dans le vide.",Négatif,Service Client
+668,"Livré le lendemain de ma commande, service impeccable.",Positif,Livraison
+669,Le colis est arrivé ouvert et abîmé. Très mécontent. Je conseille.,Négatif,Livraison
+670,SAV poli mais procédure d'échange un peu longue..,Neutre,Service Client
+671,"Honnêtement, Fonctionne comme prévu, mais n'a rien d'exceptionnel. Je conseille.",Neutre,Produit
+672,"Ni cher ni bon marché, tarif normal.",Neutre,Prix
+673,"Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+674,"Bonne affaire, beaucoup moins cher qu'en magasin physique. à voir dans le temps.",Positif,Prix
+675,"Honnêtement, Reçu très rapidement, emballage soigné et sécurisé..",Positif,Livraison
+676,"Réponse reçue en 48 heures, standard. !",Neutre,Service Client
+677,"Plastique de mauvaise qualité, très fragile, je ne recommande pas.",Négatif,Produit
+678,"Expédition rapide et colis très bien protégé, merci !",Positif,Livraison
+679,Tarif tout à fait raisonnable et accessible.,Positif,Prix
+680,Une équipe de support client très humaine et attentionnée..,Positif,Service Client
+681,Prix correct pour les prestations fournies.,Neutre,Prix
+682,"Super service de livraison, livreur très courtois et ponctuel. !",Positif,Livraison
+683,Colis reçu. Rien à signaler de particulier.,Neutre,Livraison
+684,Le colis est arrivé ouvert et abîmé. Très mécontent. !,Négatif,Livraison
+685,Temps d'attente correct pour joindre le support. Déçu.,Neutre,Service Client
+686,"Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+687,"Honnêtement, Ni cher ni bon marché, tarif normal..",Neutre,Prix
+688,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+689,"Bonjour, Conforme à la description, les finitions sont magnifiques. !",Positif,Produit
+690,Le conseiller a fait ce qu'il pouvait sans plus.,Neutre,Service Client
+691,Très bonne écoute de la part du conseiller au téléphone.,Positif,Service Client
+692,"Honnêtement, Colis reçu. Rien à signaler de particulier.",Neutre,Livraison
+693,"Aucune considération pour le client, SAV inexistant.",Négatif,Service Client
+694,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+695,"Un excellent produit, robuste et conforme à mes attentes.",Positif,Produit
+696,Tarif tout à fait raisonnable et accessible.,Positif,Prix
+697,"Arrivé pile à l'heure, rien à redire sur le transport. Déçu.",Positif,Livraison
+698,"Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+699,SAV poli mais procédure d'échange un peu longue.,Neutre,Service Client
+700,"Reçu très rapidement, emballage soigné et sécurisé. à voir dans le temps.",Positif,Livraison
+701,Service après-vente incompétent qui n'a pas compris mon problème.,Négatif,Service Client
+702,"Livraison correcte, dans les délais annoncés.",Neutre,Livraison
+703,Remplacement du produit défectueux fait sans aucun frais ni discussion.,Positif,Service Client
+704,"Pour ma part, Livré avec un jour de retard mais carton intact. à voir dans le temps.",Neutre,Livraison
+705,Le support a été d'une grande aide pour configurer l'appareil.,Positif,Service Client
+706,"Service client au top, aimable et très efficace. Je conseille.",Positif,Service Client
+707,"La qualité est médiocre, le produit s'est cassé après deux jours d'utilisation.",Négatif,Produit
+708,Le prix est dans la moyenne du marché.,Neutre,Prix
+709,"Délai d'attente interminable pour la livraison, plus d'une semaine de retard.",Négatif,Livraison
+710,Le SAV a traité ma demande de remboursement en quelques minutes.,Positif,Service Client
+711,"Pour ma part, J'attends une réponse du support par mail depuis deux semaines.",Négatif,Service Client
+712,"Bonjour, Temps de livraison moyen, emballage standard.",Neutre,Livraison
+713,Livré avec un jour de retard mais carton intact. Déçu.,Neutre,Livraison
+714,"Aucune considération pour le client, SAV inexistant.",Négatif,Service Client
+715,"Honnêtement, Le SAV refuse de me rembourser malgré le défaut. Service lamentable.",Négatif,Service Client
+716,"Bonjour, On me ballade de service en service sans résoudre mon problème.",Négatif,Service Client
+717,"Honnêtement, Le SAV refuse de me rembourser malgré le défaut. Service lamentable.",Négatif,Service Client
+718,J'attends une réponse du support par mail depuis deux semaines.,Négatif,Service Client
+719,Rapport qualité-prix imbattable sur le marché actuel. !,Positif,Prix
+720,"Expédition rapide et colis très bien protégé, merci !",Positif,Livraison
+721,Tarif standard sans réduction particulière.,Neutre,Prix
+722,"Mon avis : La qualité est médiocre, le produit s'est cassé après deux jours d'utilisation..",Négatif,Produit
+723,"Produit défectueux à l'arrivée, impossible de l'allumer.",Négatif,Produit
+724,Je suis surpris de la qualité pour un prix aussi bas.,Positif,Prix
+725,"Conforme à la description, les finitions sont magnifiques.",Positif,Produit
+726,"Déçu par cet article, il ne fonctionne pas du tout.",Négatif,Produit
+727,"Le produit est de super qualité, je recommande vivement !",Positif,Produit
+728,"Pour ma part, Qualité standard, conforme au prix payé.",Neutre,Produit
+729,"Produit défectueux à l'arrivée, impossible de l'allumer.",Négatif,Produit
+730,Tarif tout à fait raisonnable et accessible.,Positif,Prix
+731,"Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+732,On trouve exactement le même produit deux fois moins cher ailleurs.,Négatif,Prix
+733,Le conseiller a fait ce qu'il pouvait sans plus..,Neutre,Service Client
+734,"Bonjour, Un prix très compétitif pour une telle qualité de service.",Positif,Prix
+735,Le colis est arrivé avec trois jours de retard et carton écrasé.,Négatif,Livraison
+736,J'attends une réponse du support par mail depuis deux semaines..,Négatif,Service Client
+737,"Conseiller au téléphone impoli, agressif et d'aucune aide.",Négatif,Service Client
+738,Mon avis : Je suis surpris de la qualité pour un prix aussi bas.,Positif,Prix
+739,"Mon avis : Livré le lendemain de ma commande, service impeccable.",Positif,Livraison
+740,"Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+741,"Qualité standard, conforme au prix payé.",Neutre,Produit
+742,"Qualité standard, conforme au prix payé.",Neutre,Produit
+743,Je suis surpris de la qualité pour un prix aussi bas. !,Positif,Prix
+744,"Honnêtement, Le produit est de super qualité, je recommande vivement !",Positif,Produit
+745,"Reçu très rapidement, emballage soigné et sécurisé.",Positif,Livraison
+746,SAV poli mais procédure d'échange un peu longue..,Neutre,Service Client
+747,Prix correct pour les prestations fournies.,Neutre,Prix
+748,"Retard de livraison inadmissible, aucun suivi disponible.",Négatif,Livraison
+749,"Honnêtement, Livraison correcte, dans les délais annoncés.",Neutre,Livraison
+750,"Honnêtement, Livraison en 24h chrono, impressionnant !",Positif,Livraison
+751,"Honnêtement, Trop cher pour une qualité aussi basique. !",Négatif,Prix
+752,"Produit défectueux à l'arrivée, impossible de l'allumer..",Négatif,Produit
+753,"Réponse reçue en 48 heures, standard.",Neutre,Service Client
+754,Beaucoup trop cher pour ce que c'est réellement.,Négatif,Prix
+755,"Super service de livraison, livreur très courtois et ponctuel. Je conseille.",Positif,Livraison
+756,"Temps de livraison moyen, emballage standard..",Neutre,Livraison
+757,"Produit moyen, fait le job mais sans plus.",Neutre,Produit
+758,"Bonjour, Tarif tout à fait raisonnable et accessible.",Positif,Prix
+759,"Bonne affaire, beaucoup moins cher qu'en magasin physique. à voir dans le temps.",Positif,Prix
+760,Tarif standard sans réduction particulière.,Neutre,Prix
+761,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+762,Très bonne écoute de la part du conseiller au téléphone.,Positif,Service Client
+763,"Mon avis : Déçu par cet article, il ne fonctionne pas du tout.",Négatif,Produit
+764,Service après-vente incompétent qui n'a pas compris mon problème.,Négatif,Service Client
+765,Remplacement du produit défectueux fait sans aucun frais ni discussion.,Positif,Service Client
+766,On me ballade de service en service sans résoudre mon problème..,Négatif,Service Client
+767,"Reçu très rapidement, emballage soigné et sécurisé.",Positif,Livraison
+768,"Pour ma part, Livré le lendemain de ma commande, service impeccable. Je conseille.",Positif,Livraison
+769,"Mon avis : Qualité standard, conforme au prix payé.",Neutre,Produit
+770,"Super service de livraison, livreur très courtois et ponctuel.",Positif,Livraison
+771,On me ballade de service en service sans résoudre mon problème.,Négatif,Service Client
+772,Le prix est prohibitif par rapport aux performances du produit.,Négatif,Prix
+773,"Délai d'attente interminable pour la livraison, plus d'une semaine de retard.",Négatif,Livraison
+774,Ne correspond pas du tout à la photo ni à la description. à voir dans le temps.,Négatif,Produit
+775,"Bonjour, Tarif standard sans réduction particulière.",Neutre,Prix
+776,Remplacement du produit défectueux fait sans aucun frais ni discussion.,Positif,Service Client
+777,"Mon avis : Conforme à la description, les finitions sont magnifiques.",Positif,Produit
+778,"Livré le lendemain de ma commande, service impeccable.",Positif,Livraison
+779,Prix correct pour les prestations fournies. Je conseille.,Neutre,Prix
+780,Un prix très compétitif pour une telle qualité de service.,Positif,Prix
+781,Rapport qualité-prix imbattable sur le marché actuel. !,Positif,Prix
+782,"Bonne affaire, beaucoup moins cher qu'en magasin physique.",Positif,Prix
+783,"Arrivé pile à l'heure, rien à redire sur le transport.",Positif,Livraison
+784,"Le produit est de super qualité, je recommande vivement !",Positif,Produit
+785,"Fonctionne à merveille, le design est superbe.",Positif,Produit
+786,"Reçu très rapidement, emballage soigné et sécurisé.",Positif,Livraison
+787,"Fonctionne à merveille, le design est superbe.",Positif,Produit
+788,On trouve exactement le même produit deux fois moins cher ailleurs.,Négatif,Prix
+789,"Mon avis : Suivi de livraison mensonger, soit-disant livré mais rien reçu.",Négatif,Livraison
+790,"Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+791,"La qualité est médiocre, le produit s'est cassé après deux jours d'utilisation.",Négatif,Produit
+792,"Le produit est de super qualité, je recommande vivement !",Positif,Produit
+793,Tarif tout à fait raisonnable et accessible.,Positif,Prix
+794,Très bon prix avec la promotion en cours. à voir dans le temps.,Positif,Prix
+795,Le support a été d'une grande aide pour configurer l'appareil.,Positif,Service Client
+796,Le support a été d'une grande aide pour configurer l'appareil.,Positif,Service Client
+797,Remplacement du produit défectueux fait sans aucun frais ni discussion. Déçu.,Positif,Service Client
+798,"Conforme à la description, les finitions sont magnifiques.",Positif,Produit
+799,"Livraison catastrophique, le colis a été perdu par le transporteur.",Négatif,Livraison
+800,"Matériel de qualité professionnelle, très simple à utiliser.",Positif,Produit
+801,Prix correct pour les prestations fournies.,Neutre,Prix
+802,"Pour ma part, On me ballade de service en service sans résoudre mon problème.",Négatif,Service Client
+803,Très bon prix avec la promotion en cours. !,Positif,Prix
+804,Le colis est arrivé avec trois jours de retard et carton écrasé.,Négatif,Livraison
+805,"Honnêtement, Service après-vente incompétent qui n'a pas compris mon problème.",Négatif,Service Client
+806,"Très satisfait de cet achat, fonctionne parfaitement bien.",Positif,Produit
+807,"Délai d'attente interminable pour la livraison, plus d'une semaine de retard. !",Négatif,Livraison
+808,"Livraison catastrophique, le colis a été perdu par le transporteur.",Négatif,Livraison
+809,"Un excellent produit, robuste et conforme à mes attentes.",Positif,Produit
+810,Le conseiller a fait ce qu'il pouvait sans plus.,Neutre,Service Client
+811,Mon avis : Rapport qualité-prix imbattable sur le marché actuel.,Positif,Prix
+812,SAV poli mais procédure d'échange un peu longue. Je conseille.,Neutre,Service Client
+813,"Réponse reçue en 48 heures, standard.",Neutre,Service Client
+814,Service après-vente incompétent qui n'a pas compris mon problème.,Négatif,Service Client
+815,Je suis surpris de la qualité pour un prix aussi bas. à voir dans le temps.,Positif,Prix
+816,Colis reçu. Rien à signaler de particulier.,Neutre,Livraison
+817,"Livraison correcte, dans les délais annoncés.",Neutre,Livraison
+818,"Reçu très rapidement, emballage soigné et sécurisé. Déçu.",Positif,Livraison
+819,"Conseiller au téléphone impoli, agressif et d'aucune aide. à voir dans le temps.",Négatif,Service Client
+820,"Produit défectueux à l'arrivée, impossible de l'allumer..",Négatif,Produit
+821,Tarif standard sans réduction particulière.,Neutre,Prix
+822,"Temps de livraison moyen, emballage standard.",Neutre,Livraison
+823,Un prix très compétitif pour une telle qualité de service.,Positif,Prix
+824,"Produit défectueux à l'arrivée, impossible de l'allumer.",Négatif,Produit
+825,Le prix est prohibitif par rapport aux performances du produit.,Négatif,Prix
+826,Service après-vente incompétent qui n'a pas compris mon problème.,Négatif,Service Client
+827,"Aucune considération pour le client, SAV inexistant.",Négatif,Service Client
+828,"Bonjour, Fonctionne à merveille, le design est superbe.",Positif,Produit
+829,"Fonctionne comme prévu, mais n'a rien d'exceptionnel. Je conseille.",Neutre,Produit
+830,"Fonctionne à merveille, le design est superbe.",Positif,Produit
+831,Beaucoup trop cher pour ce que c'est réellement.,Négatif,Prix
+832,"Bonjour, SAV poli mais procédure d'échange un peu longue.",Neutre,Service Client
+833,"Qualité standard, conforme au prix payé.",Neutre,Produit
+834,"Rapport qualité-prix très défavorable, je regrette cet achat coûteux.",Négatif,Prix
+835,Le conseiller a fait ce qu'il pouvait sans plus.,Neutre,Service Client
+836,Tarif tout à fait raisonnable et accessible.,Positif,Prix
+837,"Matériel de qualité professionnelle, très simple à utiliser.",Positif,Produit
+838,"Excellent rapport qualité prix, je rachèterai sans hésiter.",Positif,Prix
+839,"Pour ma part, Tarif standard sans réduction particulière.",Neutre,Prix
+840,Beaucoup trop cher pour ce que c'est réellement.,Négatif,Prix
+841,"Fonctionne à merveille, le design est superbe.",Positif,Produit
+842,Rapport qualité-prix imbattable sur le marché actuel.,Positif,Prix
+843,"Livré le lendemain de ma commande, service impeccable.",Positif,Livraison
+844,"Pour ma part, Super service de livraison, livreur très courtois et ponctuel.",Positif,Livraison
+845,"Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+846,"Conforme à la description, les finitions sont magnifiques.",Positif,Produit
+847,"Honnêtement, Plastique de mauvaise qualité, très fragile, je ne recommande pas.",Négatif,Produit
+848,Le SAV a traité ma demande de remboursement en quelques minutes.,Positif,Service Client
+849,"Livraison ultra rapide, colis reçu en parfait état ! Déçu.",Positif,Livraison
+850,"Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+851,"Mon avis : Expédition rapide et colis très bien protégé, merci !",Positif,Livraison
+852,"Temps de livraison moyen, emballage standard.",Neutre,Livraison
+853,"Pour ma part, Matériel de qualité professionnelle, très simple à utiliser.",Positif,Produit
+854,"Qualité standard, conforme au prix payé.",Neutre,Produit
+855,"Réponse reçue en 48 heures, standard.",Neutre,Service Client
+856,Prix correct pour les prestations fournies..,Neutre,Prix
+857,"Ni cher ni bon marché, tarif normal..",Neutre,Prix
+858,"Je l'utilise tous les jours, c'est un produit génial !",Positif,Produit
+859,"Bonjour, Produit défectueux à l'arrivée, impossible de l'allumer.",Négatif,Produit
+860,"Aucune considération pour le client, SAV inexistant.",Négatif,Service Client
+861,"Honnêtement, Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+862,Tarif tout à fait raisonnable et accessible.,Positif,Prix
+863,"Déçu par cet article, il ne fonctionne pas du tout.",Négatif,Produit
+864,"Rapport qualité-prix très défavorable, je regrette cet achat coûteux.",Négatif,Prix
+865,"Retard de livraison inadmissible, aucun suivi disponible.",Négatif,Livraison
+866,SAV poli mais procédure d'échange un peu longue. à voir dans le temps.,Neutre,Service Client
+867,"Arrivé pile à l'heure, rien à redire sur le transport.",Positif,Livraison
+868,Tarif standard sans réduction particulière.,Neutre,Prix
+869,Très bonne écoute de la part du conseiller au téléphone.,Positif,Service Client
+870,"Correct dans l'ensemble, mais quelques détails à améliorer. à voir dans le temps.",Neutre,Produit
+871,J'attends une réponse du support par mail depuis deux semaines.,Négatif,Service Client
+872,Mon avis : Beaucoup trop cher pour ce que c'est réellement.,Négatif,Prix
+873,"Des frais cachés s'ajoutent à la fin, ce n'est pas honnête.",Négatif,Prix
+874,"Déçu par cet article, il ne fonctionne pas du tout.",Négatif,Produit
+875,Colis reçu. Rien à signaler de particulier.,Neutre,Livraison
+876,"Qualité standard, conforme au prix payé. à voir dans le temps.",Neutre,Produit
+877,"Qualité standard, conforme au prix payé.",Neutre,Produit
+878,"Le tarif a augmenté de 20% sans explication, c'est abusé.",Négatif,Prix
+879,"Mon avis : Reçu très rapidement, emballage soigné et sécurisé.",Positif,Livraison
+880,"Pour ma part, SAV poli mais procédure d'échange un peu longue. à voir dans le temps.",Neutre,Service Client
+881,Ne correspond pas du tout à la photo ni à la description.,Négatif,Produit
+882,"Honnêtement, Super service de livraison, livreur très courtois et ponctuel.",Positif,Livraison
+883,"Livraison en 24h chrono, impressionnant !",Positif,Livraison
+884,"Livré le lendemain de ma commande, service impeccable.",Positif,Livraison
+885,"Qualité standard, conforme au prix payé.",Neutre,Produit
+886,"Le produit est de super qualité, je recommande vivement !",Positif,Produit
+887,"Honnêtement, Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+888,Rapport qualité-prix imbattable sur le marché actuel. !,Positif,Prix
+889,"Bonjour, Colis reçu. Rien à signaler de particulier.",Neutre,Livraison
+890,Tarif standard sans réduction particulière.,Neutre,Prix
+891,Très bonne écoute de la part du conseiller au téléphone.,Positif,Service Client
+892,"Très satisfait de cet achat, fonctionne parfaitement bien.",Positif,Produit
+893,"Je l'utilise tous les jours, c'est un produit génial !",Positif,Produit
+894,Mon avis : J'attends une réponse du support par mail depuis deux semaines.,Négatif,Service Client
+895,"Bonjour, Prix correct pour les prestations fournies. à voir dans le temps.",Neutre,Prix
+896,"Je l'utilise tous les jours, c'est un produit génial !",Positif,Produit
+897,"Honnêtement, Super service de livraison, livreur très courtois et ponctuel.",Positif,Livraison
+898,"Produit défectueux à l'arrivée, impossible de l'allumer.",Négatif,Produit
+899,"Délai d'attente interminable pour la livraison, plus d'une semaine de retard. !",Négatif,Livraison
+900,"Super service de livraison, livreur très courtois et ponctuel.",Positif,Livraison
+901,"Pour ma part, Livraison en 24h chrono, impressionnant !",Positif,Livraison
+902,Rapport qualité-prix imbattable sur le marché actuel. !,Positif,Prix
+903,Le conseiller a fait ce qu'il pouvait sans plus.,Neutre,Service Client
+904,"Honnêtement, Plastique de mauvaise qualité, très fragile, je ne recommande pas.",Négatif,Produit
+905,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+906,"La qualité est médiocre, le produit s'est cassé après deux jours d'utilisation.",Négatif,Produit
+907,"Honnêtement, Produit défectueux à l'arrivée, impossible de l'allumer.",Négatif,Produit
+908,"Des frais cachés s'ajoutent à la fin, ce n'est pas honnête.",Négatif,Prix
+909,"Expédition rapide et colis très bien protégé, merci !",Positif,Livraison
+910,"Livraison en 24h chrono, impressionnant !",Positif,Livraison
+911,"Pour ma part, Tarif tout à fait raisonnable et accessible.",Positif,Prix
+912,"Je l'utilise tous les jours, c'est un produit génial !",Positif,Produit
+913,"La qualité est médiocre, le produit s'est cassé après deux jours d'utilisation.",Négatif,Produit
+914,"Le tarif a augmenté de 20% sans explication, c'est abusé.",Négatif,Prix
+915,"Mon avis : Matériel de qualité professionnelle, très simple à utiliser.",Positif,Produit
+916,Colis reçu. Rien à signaler de particulier.,Neutre,Livraison
+917,Le conseiller a fait ce qu'il pouvait sans plus.,Neutre,Service Client
+918,"Honnêtement, Temps d'attente correct pour joindre le support.",Neutre,Service Client
+919,"Super service de livraison, livreur très courtois et ponctuel.",Positif,Livraison
+920,"Suivi de livraison mensonger, soit-disant livré mais rien reçu. Déçu.",Négatif,Livraison
+921,"Reçu très rapidement, emballage soigné et sécurisé.",Positif,Livraison
+922,"Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+923,Le prix est dans la moyenne du marché. à voir dans le temps.,Neutre,Prix
+924,"Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+925,"Déçu par cet article, il ne fonctionne pas du tout.",Négatif,Produit
+926,Une équipe de support client très humaine et attentionnée. !,Positif,Service Client
+927,"Des frais cachés s'ajoutent à la fin, ce n'est pas honnête.",Négatif,Prix
+928,Un prix très compétitif pour une telle qualité de service.,Positif,Prix
+929,Colis reçu. Rien à signaler de particulier.,Neutre,Livraison
+930,"Produit défectueux à l'arrivée, impossible de l'allumer.",Négatif,Produit
+931,"Mon avis : Temps de livraison moyen, emballage standard.",Neutre,Livraison
+932,"Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+933,"Livré le lendemain de ma commande, service impeccable.",Positif,Livraison
+934,Temps d'attente correct pour joindre le support.,Neutre,Service Client
+935,"Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+936,"Bonjour, Prix correct pour les prestations fournies.",Neutre,Prix
+937,"Mon avis : Excellent rapport qualité prix, je rachèterai sans hésiter.",Positif,Prix
+938,"Expédition rapide et colis très bien protégé, merci !",Positif,Livraison
+939,Trop cher pour une qualité aussi basique. Déçu.,Négatif,Prix
+940,Livreur désagréable qui a laissé le colis sur le trottoir.,Négatif,Livraison
+941,"Pour ma part, Très satisfait de cet achat, fonctionne parfaitement bien.",Positif,Produit
+942,Tarif tout à fait raisonnable et accessible.,Positif,Prix
+943,"Bonjour, Qualité standard, conforme au prix payé.",Neutre,Produit
+944,"Pour ma part, Livré le lendemain de ma commande, service impeccable. !",Positif,Livraison
+945,"Impossible de joindre le service client, le téléphone sonne dans le vide.",Négatif,Service Client
+946,Colis reçu. Rien à signaler de particulier.,Neutre,Livraison
+947,"Honnêtement, Fonctionne à merveille, le design est superbe.",Positif,Produit
+948,J'attends une réponse du support par mail depuis deux semaines.,Négatif,Service Client
+949,Ne correspond pas du tout à la photo ni à la description. à voir dans le temps.,Négatif,Produit
+950,"Livraison en 24h chrono, impressionnant !",Positif,Livraison
+951,Prix correct pour les prestations fournies.,Neutre,Prix
+952,"Plastique de mauvaise qualité, très fragile, je ne recommande pas.",Négatif,Produit
+953,Support client réactif et très professionnel. Problème résolu !,Positif,Service Client
+954,"Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+955,Le colis est arrivé avec trois jours de retard et carton écrasé..,Négatif,Livraison
+956,Prix correct pour les prestations fournies.,Neutre,Prix
+957,"Conseiller au téléphone impoli, agressif et d'aucune aide.",Négatif,Service Client
+958,"Ni cher ni bon marché, tarif normal. !",Neutre,Prix
+959,"Honnêtement, Le colis est arrivé ouvert et abîmé. Très mécontent.",Négatif,Livraison
+960,Mon avis : Une équipe de support client très humaine et attentionnée.,Positif,Service Client
+961,"Livraison catastrophique, le colis a été perdu par le transporteur. !",Négatif,Livraison
+962,"Livré le lendemain de ma commande, service impeccable.",Positif,Livraison
+963,"Bonjour, Beaucoup trop cher pour ce que c'est réellement.",Négatif,Prix
+964,"Temps de livraison moyen, emballage standard.",Neutre,Livraison
+965,Je suis surpris de la qualité pour un prix aussi bas. à voir dans le temps.,Positif,Prix
+966,Trop cher pour une qualité aussi basique.,Négatif,Prix
+967,"Mon avis : Qualité standard, conforme au prix payé.",Neutre,Produit
+968,"Pour ma part, Matériel de qualité professionnelle, très simple à utiliser.",Positif,Produit
+969,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+970,Le colis est arrivé ouvert et abîmé. Très mécontent.,Négatif,Livraison
+971,"Produit moyen, fait le job mais sans plus. à voir dans le temps.",Neutre,Produit
+972,"Ni cher ni bon marché, tarif normal.",Neutre,Prix
+973,"Honnêtement, Impossible de joindre le service client, le téléphone sonne dans le vide.",Négatif,Service Client
+974,"Bonne affaire, beaucoup moins cher qu'en magasin physique..",Positif,Prix
+975,"Très satisfait de cet achat, fonctionne parfaitement bien.",Positif,Produit
+976,"Temps de livraison moyen, emballage standard.",Neutre,Livraison
+977,Mon avis : Colis reçu. Rien à signaler de particulier.,Neutre,Livraison
+978,"Mon avis : Arrivé pile à l'heure, rien à redire sur le transport.",Positif,Livraison
+979,"Bonne affaire, beaucoup moins cher qu'en magasin physique.",Positif,Prix
+980,Le support a été d'une grande aide pour configurer l'appareil.,Positif,Service Client
+981,Ne correspond pas du tout à la photo ni à la description.,Négatif,Produit
+982,SAV poli mais procédure d'échange un peu longue.,Neutre,Service Client
+983,Le conseiller a fait ce qu'il pouvait sans plus.,Neutre,Service Client
+984,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+985,"Suivi de livraison mensonger, soit-disant livré mais rien reçu. Je conseille.",Négatif,Livraison
+986,On me ballade de service en service sans résoudre mon problème. Déçu.,Négatif,Service Client
+987,Livré avec un jour de retard mais carton intact.,Neutre,Livraison
+988,"Fonctionne comme prévu, mais n'a rien d'exceptionnel.",Neutre,Produit
+989,"Pour ma part, Un prix très compétitif pour une telle qualité de service. Je conseille.",Positif,Prix
+990,"Pour ma part, Un excellent produit, robuste et conforme à mes attentes.",Positif,Produit
+991,Mon avis : Prix correct pour les prestations fournies. !,Neutre,Prix
+992,"Bonne affaire, beaucoup moins cher qu'en magasin physique. !",Positif,Prix
+993,"Correct dans l'ensemble, mais quelques détails à améliorer.",Neutre,Produit
+994,Le conseiller a fait ce qu'il pouvait sans plus.,Neutre,Service Client
+995,Très bon prix avec la promotion en cours.,Positif,Prix
+996,Le colis est arrivé avec trois jours de retard et carton écrasé.,Négatif,Livraison
+997,"Déçu par cet article, il ne fonctionne pas du tout.",Négatif,Produit
+998,Rapport qualité-prix imbattable sur le marché actuel.,Positif,Prix
+999,SAV poli mais procédure d'échange un peu longue.,Neutre,Service Client
+1000,Ne correspond pas du tout à la photo ni à la description.,Négatif,Produit
