@@ -9,6 +9,30 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
+import psycopg2
+# Connexion Supabase
+DB_URL = os.getenv("DATABASE_URL")
+
+def save_feedback_db(feedback):
+    conn = psycopg2.connect(DB_URL)
+    cur = conn.cursor()
+    cur.execute("""
+        INSERT INTO feedback (timestamp, text, predicted_sentiment, actual_sentiment,
+                              predicted_category, actual_category, is_different)
+        VALUES (%s, %s, %s, %s, %s, %s, %s)
+    """, (
+        feedback["timestamp"],
+        feedback["text"],
+        feedback["predicted_sentiment"],
+        feedback["actual_sentiment"],
+        feedback["predicted_category"],
+        feedback["actual_category"],
+        feedback["is_different"]
+    ))
+    conn.commit()
+    cur.close()
+    conn.close()
+
 app = FastAPI(
     title="SentiCraft MLOps API",
     description="API de production pour la classification de sentiment et thématique des reviews clients.",
@@ -185,7 +209,7 @@ def submit_feedback(request: FeedbackRequest, background_tasks: BackgroundTasks)
     API_METRICS["feedback_count"] += 1
     
     # Exécuter l'écriture fichier en tâche de fond pour ne pas bloquer l'appelant
-    background_tasks.add_task(save_feedback_bg, feedback_record)
+    background_tasks.add_task(save_feedback_db, feedback_record)
     
     return {"status": "success", "message": "Feedback enregistré pour le réapprentissage."}
 
