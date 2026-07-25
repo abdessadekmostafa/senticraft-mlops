@@ -17,3 +17,6 @@ dependencies = [
     "scikit-learn>=1.7.2",
     "uvicorn>=0.51.0",
 ]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

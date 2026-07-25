@@ -1,16 +1,20 @@
+from unittest.mock import patch, MagicMock
 import pytest
 from fastapi.testclient import TestClient
 from src.app import app
 from src.data_prep import generate_synthetic_reviews
-from unittest.mock import patch
-import psycopg2
 
 client = TestClient(app)
 
 @patch("psycopg2.connect")
 def test_api_feedback(mock_connect):
     """Vérifie que l'enregistrement de feedback fonctionne sans vraie base."""
-    mock_connect.return_value = True
+    # Simule une connexion et un curseur
+    mock_conn = MagicMock()
+    mock_cursor = MagicMock()
+    mock_conn.cursor.return_value = mock_cursor
+    mock_connect.return_value = mock_conn
+
     with TestClient(app) as client:
         payload = {
             "text": "Le prix est trop élevé.",
