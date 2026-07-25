@@ -38,6 +38,7 @@ jobs:
 
       - name: Run Unit Tests
         run: |
+          export PYTHONPATH=$PYTHONPATH:$(pwd)/src
           uv run pytest src/
 
   model-validation:
